@@ -24,6 +24,7 @@ Thank you.
     * 30 I/O pins (26 digital and 4 analog pins)
     * 4-Channels, 12 bits A/D converter
     * Compatible with the opensource [Icestudio](https://github.com/FPGAwars/icestudio/)
+    * Programmable by USB
 * Microcontroller:
     * STM32F091VC microcontroller
     * 256Kbyte flash memory and 32Kbyte RAM memory
@@ -35,8 +36,9 @@ Thank you.
     * SWD connector for using ST-Link V2
     * 24 I/O pins (20 digital and 4 analog pins)
     * 1 SPI, 1 I2C and 6 UART compatible pins
-    * Programmable by USB (thanks to FTDI chip) or by St-Link
+    * Programmable by USB or by St-Link
 * General:
+    * FTDI chip allows programming both devices (previously selected by an external jumper) 
     * 4MB shared SRAM between microcontroller and FPGA (to be used as storage or as a communication buffer between devices)
     * USB C power supply (up to 5A)
     * 24 accessible power pins (5V and 3.3V) and 24 GND pins
