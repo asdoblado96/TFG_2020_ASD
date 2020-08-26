@@ -23,7 +23,7 @@ Thank you.
     * VGA port
     * 30 I/O pins (26 digital and 4 analog pins)
     * 4-Channels, 12 bits A/D converter
-    * Compatible with the opensource [Icestudio] (https://github.com/FPGAwars/icestudio)
+    * Compatible with the opensource [Icestudio](https://github.com/FPGAwars/icestudio/)
 * Microcontroller:
     * STM32F091VC microcontroller
     * 256Kbyte flash memory and 32Kbyte RAM memory
