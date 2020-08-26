@@ -372,7 +372,7 @@ F 3 "" H 1030 2870 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TFG20:ADS7924IRTER IC?
+L TFG20-rescue:ADS7924IRTER-TFG20-TFG20-rescue IC?
 U 1 1 5F235551
 P 1930 3770
 AR Path="/5E74E3FF/5E74F3C5/5F235551" Ref="IC?"  Part="1" 
@@ -391,7 +391,7 @@ F 9 "ADS7924IRTER" H 2980 3570 50  0001 L CNN "Manufacturer_Part_Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L TFG20:R100 R?
+L TFG20-rescue:R100-TFG20-TFG20-rescue R?
 U 1 1 5F23555E
 P 1830 5270
 AR Path="/5E74E3FF/5E74F3C5/5F23555E" Ref="R?"  Part="1" 
@@ -404,7 +404,7 @@ F 3 "https://es.rs-online.com/web/p/resistencias-fijas-para-montaje-en-superfici
 	-1   0    0    1   
 $EndComp
 $Comp
-L TFG20:R100 R?
+L TFG20-rescue:R100-TFG20-TFG20-rescue R?
 U 1 1 5F235564
 P 1730 5270
 AR Path="/5E74E3FF/5E74F3C5/5F235564" Ref="R?"  Part="1" 
@@ -417,7 +417,7 @@ F 3 "https://es.rs-online.com/web/p/resistencias-fijas-para-montaje-en-superfici
 	-1   0    0    1   
 $EndComp
 $Comp
-L TFG20:R100 R?
+L TFG20-rescue:R100-TFG20-TFG20-rescue R?
 U 1 1 5F23556A
 P 1630 5270
 AR Path="/5E74E3FF/5E74F3C5/5F23556A" Ref="R?"  Part="1" 
@@ -430,7 +430,7 @@ F 3 "https://es.rs-online.com/web/p/resistencias-fijas-para-montaje-en-superfici
 	-1   0    0    1   
 $EndComp
 $Comp
-L TFG20:R10k R?
+L TFG20-rescue:R10k-TFG20-TFG20-rescue R?
 U 1 1 5F235574
 P 1380 3070
 AR Path="/5E74E3FF/5E74F3C5/5F235574" Ref="R?"  Part="1" 
@@ -443,7 +443,7 @@ F 3 "https://es.rs-online.com/web/p/resistencias-fijas-para-montaje-en-superfici
 	0    1    1    0   
 $EndComp
 $Comp
-L TFG20:R10k R?
+L TFG20-rescue:R10k-TFG20-TFG20-rescue R?
 U 1 1 5F23557A
 P 1380 3270
 AR Path="/5E74E3FF/5E74F3C5/5F23557A" Ref="R?"  Part="1" 
@@ -469,7 +469,7 @@ F 3 "" H 2630 4170 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TFG20:C100n C?
+L TFG20-rescue:C100n-TFG20-TFG20-rescue C?
 U 1 1 5F235588
 P 5070 3970
 AR Path="/5E74E3FF/5E74F3C5/5F235588" Ref="C?"  Part="1" 
@@ -482,7 +482,7 @@ F 3 "https://es.rs-online.com/web/p/mlccs-condensadores-ceramicos-multicapa/2644
 	1    0    0    -1  
 $EndComp
 $Comp
-L TFG20:C10u C?
+L TFG20-rescue:C10u-TFG20-TFG20-rescue C?
 U 1 1 5F23558E
 P 3280 4520
 AR Path="/5E74E3FF/5E74F3C5/5F23558E" Ref="C?"  Part="1" 
@@ -495,7 +495,7 @@ F 3 "https://es.rs-online.com/web/p/mlccs-condensadores-ceramicos-multicapa/7882
 	1    0    0    -1  
 $EndComp
 $Comp
-L TFG20:C100n C?
+L TFG20-rescue:C100n-TFG20-TFG20-rescue C?
 U 1 1 5F235597
 P 2930 4620
 AR Path="/5E74E3FF/5E74F3C5/5F235597" Ref="C?"  Part="1" 
@@ -508,7 +508,7 @@ F 3 "https://es.rs-online.com/web/p/mlccs-condensadores-ceramicos-multicapa/2644
 	1    0    0    -1  
 $EndComp
 $Comp
-L TFG20:BLM18KG331SN1D FB?
+L TFG20-rescue:BLM18KG331SN1D-TFG20-TFG20-rescue FB?
 U 1 1 5F2355A6
 P 5450 3820
 AR Path="/5E74E3FF/5E74F3C5/5F2355A6" Ref="FB?"  Part="1" 
@@ -527,7 +527,7 @@ F 9 "BLM18KG331SN1D" H 6100 3220 50  0001 L CNN "Manufacturer_Part_Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L TFG20:BLM18KG331SN1D FB?
+L TFG20-rescue:BLM18KG331SN1D-TFG20-TFG20-rescue FB?
 U 1 1 5F2355B2
 P 3130 3960
 AR Path="/5E74E3FF/5E74F3C5/5F2355B2" Ref="FB?"  Part="1" 
@@ -546,7 +546,7 @@ F 9 "BLM18KG331SN1D" H 3780 3360 50  0001 L CNN "Manufacturer_Part_Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L TFG20:C100n C?
+L TFG20-rescue:C100n-TFG20-TFG20-rescue C?
 U 1 1 5F2355B8
 P 2480 3270
 AR Path="/5E74E3FF/5E74F3C5/5F2355B8" Ref="C?"  Part="1" 
@@ -559,7 +559,7 @@ F 3 "https://es.rs-online.com/web/p/mlccs-condensadores-ceramicos-multicapa/2644
 	1    0    0    -1  
 $EndComp
 $Comp
-L TFG20:NCP114BSN330T1G IC?
+L TFG20-rescue:NCP114BSN330T1G-TFG20-TFG20-rescue IC?
 U 1 1 5F2355C5
 P 4320 4270
 AR Path="/5E74E3FF/5E74F3C5/5F2355C5" Ref="IC?"  Part="1" 
@@ -682,7 +682,7 @@ F 3 "" H 7030 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TFG20:R100 R35
+L TFG20-rescue:R100-TFG20-TFG20-rescue R35
 U 1 1 5F2CC32F
 P 10770 4840
 F 0 "R35" V 10850 4840 50  0000 C CNN
@@ -693,7 +693,7 @@ F 3 "https://es.rs-online.com/web/p/resistencias-fijas-para-montaje-en-superfici
 	1    0    0    -1  
 $EndComp
 $Comp
-L TFG20:R100 R?
+L TFG20-rescue:R100-TFG20-TFG20-rescue R?
 U 1 1 5F235558
 P 1930 5270
 AR Path="/5E74E3FF/5E74F3C5/5F235558" Ref="R?"  Part="1" 
@@ -706,7 +706,7 @@ F 3 "https://es.rs-online.com/web/p/resistencias-fijas-para-montaje-en-superfici
 	-1   0    0    1   
 $EndComp
 $Comp
-L TFG20:R619 R24
+L TFG20-rescue:R619-TFG20-TFG20-rescue R24
 U 1 1 5F2D69E5
 P 9520 2340
 F 0 "R24" V 9600 2340 50  0000 C CNN
@@ -717,7 +717,7 @@ F 3 "https://es.rs-online.com/web/p/resistencias-fijas-para-montaje-en-superfici
 	1    0    0    -1  
 $EndComp
 $Comp
-L TFG20:R619 R28
+L TFG20-rescue:R619-TFG20-TFG20-rescue R28
 U 1 1 5F2D74A1
 P 10020 2340
 F 0 "R28" V 10100 2340 50  0000 C CNN
@@ -728,7 +728,7 @@ F 3 "https://es.rs-online.com/web/p/resistencias-fijas-para-montaje-en-superfici
 	1    0    0    -1  
 $EndComp
 $Comp
-L TFG20:R619 R32
+L TFG20-rescue:R619-TFG20-TFG20-rescue R32
 U 1 1 5F2D795E
 P 10520 2340
 F 0 "R32" V 10600 2340 50  0000 C CNN
@@ -739,7 +739,7 @@ F 3 "https://es.rs-online.com/web/p/resistencias-fijas-para-montaje-en-superfici
 	1    0    0    -1  
 $EndComp
 $Comp
-L TFG20:R619 R33
+L TFG20-rescue:R619-TFG20-TFG20-rescue R33
 U 1 1 5F2D802C
 P 10520 4140
 F 0 "R33" V 10600 4140 50  0000 C CNN
@@ -750,7 +750,7 @@ F 3 "https://es.rs-online.com/web/p/resistencias-fijas-para-montaje-en-superfici
 	1    0    0    -1  
 $EndComp
 $Comp
-L TFG20:R619 R29
+L TFG20-rescue:R619-TFG20-TFG20-rescue R29
 U 1 1 5F2D88F5
 P 10020 4140
 F 0 "R29" V 10100 4140 50  0000 C CNN
@@ -761,7 +761,7 @@ F 3 "https://es.rs-online.com/web/p/resistencias-fijas-para-montaje-en-superfici
 	1    0    0    -1  
 $EndComp
 $Comp
-L TFG20:R619 R25
+L TFG20-rescue:R619-TFG20-TFG20-rescue R25
 U 1 1 5F2D8EEA
 P 9520 4140
 F 0 "R25" V 9600 4140 50  0000 C CNN
@@ -772,7 +772,7 @@ F 3 "https://es.rs-online.com/web/p/resistencias-fijas-para-montaje-en-superfici
 	1    0    0    -1  
 $EndComp
 $Comp
-L TFG20:R619 R20
+L TFG20-rescue:R619-TFG20-TFG20-rescue R20
 U 1 1 5F2D94E4
 P 8430 4050
 F 0 "R20" V 8510 4050 50  0000 C CNN
@@ -783,7 +783,7 @@ F 3 "https://es.rs-online.com/web/p/resistencias-fijas-para-montaje-en-superfici
 	1    0    0    -1  
 $EndComp
 $Comp
-L TFG20:R619 R18
+L TFG20-rescue:R619-TFG20-TFG20-rescue R18
 U 1 1 5F2D9AD4
 P 7930 4050
 F 0 "R18" V 8010 4050 50  0000 C CNN
@@ -794,7 +794,7 @@ F 3 "https://es.rs-online.com/web/p/resistencias-fijas-para-montaje-en-superfici
 	1    0    0    -1  
 $EndComp
 $Comp
-L TFG20:R619 R16
+L TFG20-rescue:R619-TFG20-TFG20-rescue R16
 U 1 1 5F2DA010
 P 7430 4050
 F 0 "R16" V 7510 4050 50  0000 C CNN
@@ -805,7 +805,7 @@ F 3 "https://es.rs-online.com/web/p/resistencias-fijas-para-montaje-en-superfici
 	1    0    0    -1  
 $EndComp
 $Comp
-L TFG20:R309 R15
+L TFG20-rescue:R309-TFG20-TFG20-rescue R15
 U 1 1 5F2DF09D
 P 7180 4500
 F 0 "R15" V 7260 4500 50  0000 C CNN
@@ -816,7 +816,7 @@ F 3 "https://es.rs-online.com/web/p/resistencias-fijas-para-montaje-en-superfici
 	0    1    1    0   
 $EndComp
 $Comp
-L TFG20:R309 R17
+L TFG20-rescue:R309-TFG20-TFG20-rescue R17
 U 1 1 5F2E087C
 P 7680 4500
 F 0 "R17" V 7760 4500 50  0000 C CNN
@@ -827,7 +827,7 @@ F 3 "https://es.rs-online.com/web/p/resistencias-fijas-para-montaje-en-superfici
 	0    1    1    0   
 $EndComp
 $Comp
-L TFG20:R309 R19
+L TFG20-rescue:R309-TFG20-TFG20-rescue R19
 U 1 1 5F2E0E69
 P 8180 4500
 F 0 "R19" V 8260 4500 50  0000 C CNN
@@ -838,7 +838,7 @@ F 3 "https://es.rs-online.com/web/p/resistencias-fijas-para-montaje-en-superfici
 	0    1    1    0   
 $EndComp
 $Comp
-L TFG20:R309 R23
+L TFG20-rescue:R309-TFG20-TFG20-rescue R23
 U 1 1 5F2E3179
 P 9270 4590
 F 0 "R23" V 9350 4590 50  0000 C CNN
@@ -849,7 +849,7 @@ F 3 "https://es.rs-online.com/web/p/resistencias-fijas-para-montaje-en-superfici
 	0    1    1    0   
 $EndComp
 $Comp
-L TFG20:R309 R27
+L TFG20-rescue:R309-TFG20-TFG20-rescue R27
 U 1 1 5F2E391A
 P 9770 4590
 F 0 "R27" V 9850 4590 50  0000 C CNN
@@ -860,7 +860,7 @@ F 3 "https://es.rs-online.com/web/p/resistencias-fijas-para-montaje-en-superfici
 	0    1    1    0   
 $EndComp
 $Comp
-L TFG20:R309 R31
+L TFG20-rescue:R309-TFG20-TFG20-rescue R31
 U 1 1 5F2E4D51
 P 10270 4590
 F 0 "R31" V 10350 4590 50  0000 C CNN
@@ -871,7 +871,7 @@ F 3 "https://es.rs-online.com/web/p/resistencias-fijas-para-montaje-en-superfici
 	0    1    1    0   
 $EndComp
 $Comp
-L TFG20:R309 R22
+L TFG20-rescue:R309-TFG20-TFG20-rescue R22
 U 1 1 5F2E5729
 P 9270 2790
 F 0 "R22" V 9350 2790 50  0000 C CNN
@@ -882,7 +882,7 @@ F 3 "https://es.rs-online.com/web/p/resistencias-fijas-para-montaje-en-superfici
 	0    1    1    0   
 $EndComp
 $Comp
-L TFG20:R309 R26
+L TFG20-rescue:R309-TFG20-TFG20-rescue R26
 U 1 1 5F2E6340
 P 9770 2790
 F 0 "R26" V 9850 2790 50  0000 C CNN
@@ -893,7 +893,7 @@ F 3 "https://es.rs-online.com/web/p/resistencias-fijas-para-montaje-en-superfici
 	0    1    1    0   
 $EndComp
 $Comp
-L TFG20:R309 R30
+L TFG20-rescue:R309-TFG20-TFG20-rescue R30
 U 1 1 5F2E6B81
 P 10270 2790
 F 0 "R30" V 10350 2790 50  0000 C CNN
@@ -904,7 +904,7 @@ F 3 "https://es.rs-online.com/web/p/resistencias-fijas-para-montaje-en-superfici
 	0    1    1    0   
 $EndComp
 $Comp
-L TFG20:R100 R21
+L TFG20-rescue:R100-TFG20-TFG20-rescue R21
 U 1 1 5F2E84D9
 P 8680 4750
 F 0 "R21" V 8760 4750 50  0000 C CNN
@@ -915,7 +915,7 @@ F 3 "https://es.rs-online.com/web/p/resistencias-fijas-para-montaje-en-superfici
 	1    0    0    -1  
 $EndComp
 $Comp
-L TFG20:R100 R34
+L TFG20-rescue:R100-TFG20-TFG20-rescue R34
 U 1 1 5F2E8F1E
 P 10770 3040
 F 0 "R34" V 10850 3040 50  0000 C CNN
@@ -928,7 +928,7 @@ $EndComp
 Text GLabel 3130 3720 1    50   Input ~ 0
 AREF
 $Comp
-L TFG20:L77HDE15SD1CH4RHNVGA J5
+L TFG20-rescue:L77HDE15SD1CH4RHNVGA-TFG20-TFG20-rescue J5
 U 1 1 5F38DEC7
 P 7520 1770
 F 0 "J5" H 7970 2035 50  0000 C CNN

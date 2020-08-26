@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L TFG20:iCE40HX4K-TQ144 IC3
+L TFG20-rescue:iCE40HX4K-TQ144-TFG20-TFG20-rescue IC3
 U 1 1 5F18BC22
 P 1200 2220
 F 0 "IC3" H 3150 1100 50  0000 L CNN
@@ -74,8 +74,8 @@ L power:GND #PWR?
 U 1 1 5F212119
 P 7185 1135
 AR Path="/5E74E3FF/5EB3C809/5F212119" Ref="#PWR?"  Part="1" 
-AR Path="/5E74E3FF/5F18BAC8/5F212119" Ref="#PWR053"  Part="1" 
-F 0 "#PWR053" H 7185 885 50  0001 C CNN
+AR Path="/5E74E3FF/5F18BAC8/5F212119" Ref="#PWR054"  Part="1" 
+F 0 "#PWR054" H 7185 885 50  0001 C CNN
 F 1 "GND" H 7185 985 50  0000 C CNN
 F 2 "" H 7185 1135 50  0001 C CNN
 F 3 "" H 7185 1135 50  0001 C CNN
@@ -87,8 +87,8 @@ L power:GND #PWR?
 U 1 1 5F21211F
 P 7485 1135
 AR Path="/5E74E3FF/5EB3C809/5F21211F" Ref="#PWR?"  Part="1" 
-AR Path="/5E74E3FF/5F18BAC8/5F21211F" Ref="#PWR054"  Part="1" 
-F 0 "#PWR054" H 7485 885 50  0001 C CNN
+AR Path="/5E74E3FF/5F18BAC8/5F21211F" Ref="#PWR057"  Part="1" 
+F 0 "#PWR057" H 7485 885 50  0001 C CNN
 F 1 "GND" H 7485 985 50  0000 C CNN
 F 2 "" H 7485 1135 50  0001 C CNN
 F 3 "" H 7485 1135 50  0001 C CNN
@@ -100,8 +100,8 @@ L power:GND #PWR?
 U 1 1 5F212125
 P 7785 1135
 AR Path="/5E74E3FF/5EB3C809/5F212125" Ref="#PWR?"  Part="1" 
-AR Path="/5E74E3FF/5F18BAC8/5F212125" Ref="#PWR055"  Part="1" 
-F 0 "#PWR055" H 7785 885 50  0001 C CNN
+AR Path="/5E74E3FF/5F18BAC8/5F212125" Ref="#PWR059"  Part="1" 
+F 0 "#PWR059" H 7785 885 50  0001 C CNN
 F 1 "GND" H 7785 985 50  0000 C CNN
 F 2 "" H 7785 1135 50  0001 C CNN
 F 3 "" H 7785 1135 50  0001 C CNN
@@ -113,8 +113,8 @@ L power:GND #PWR?
 U 1 1 5F21212B
 P 8085 1135
 AR Path="/5E74E3FF/5EB3C809/5F21212B" Ref="#PWR?"  Part="1" 
-AR Path="/5E74E3FF/5F18BAC8/5F21212B" Ref="#PWR057"  Part="1" 
-F 0 "#PWR057" H 8085 885 50  0001 C CNN
+AR Path="/5E74E3FF/5F18BAC8/5F21212B" Ref="#PWR062"  Part="1" 
+F 0 "#PWR062" H 8085 885 50  0001 C CNN
 F 1 "GND" H 8085 985 50  0000 C CNN
 F 2 "" H 8085 1135 50  0001 C CNN
 F 3 "" H 8085 1135 50  0001 C CNN
@@ -126,8 +126,8 @@ L power:GND #PWR?
 U 1 1 5F212131
 P 8385 1135
 AR Path="/5E74E3FF/5EB3C809/5F212131" Ref="#PWR?"  Part="1" 
-AR Path="/5E74E3FF/5F18BAC8/5F212131" Ref="#PWR058"  Part="1" 
-F 0 "#PWR058" H 8385 885 50  0001 C CNN
+AR Path="/5E74E3FF/5F18BAC8/5F212131" Ref="#PWR064"  Part="1" 
+F 0 "#PWR064" H 8385 885 50  0001 C CNN
 F 1 "GND" H 8385 985 50  0000 C CNN
 F 2 "" H 8385 1135 50  0001 C CNN
 F 3 "" H 8385 1135 50  0001 C CNN
@@ -139,8 +139,8 @@ L power:GND #PWR?
 U 1 1 5F212137
 P 8685 1135
 AR Path="/5E74E3FF/5EB3C809/5F212137" Ref="#PWR?"  Part="1" 
-AR Path="/5E74E3FF/5F18BAC8/5F212137" Ref="#PWR061"  Part="1" 
-F 0 "#PWR061" H 8685 885 50  0001 C CNN
+AR Path="/5E74E3FF/5F18BAC8/5F212137" Ref="#PWR066"  Part="1" 
+F 0 "#PWR066" H 8685 885 50  0001 C CNN
 F 1 "GND" H 8685 985 50  0000 C CNN
 F 2 "" H 8685 1135 50  0001 C CNN
 F 3 "" H 8685 1135 50  0001 C CNN
@@ -150,79 +150,79 @@ $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5F21213D
-P 9735 1135
+P 7205 1900
 AR Path="/5E74E3FF/5EB3C809/5F21213D" Ref="#PWR?"  Part="1" 
-AR Path="/5E74E3FF/5F18BAC8/5F21213D" Ref="#PWR065"  Part="1" 
-F 0 "#PWR065" H 9735 885 50  0001 C CNN
-F 1 "GND" H 9735 985 50  0000 C CNN
-F 2 "" H 9735 1135 50  0001 C CNN
-F 3 "" H 9735 1135 50  0001 C CNN
-	1    9735 1135
+AR Path="/5E74E3FF/5F18BAC8/5F21213D" Ref="#PWR056"  Part="1" 
+F 0 "#PWR056" H 7205 1650 50  0001 C CNN
+F 1 "GND" H 7205 1750 50  0000 C CNN
+F 2 "" H 7205 1900 50  0001 C CNN
+F 3 "" H 7205 1900 50  0001 C CNN
+	1    7205 1900
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5F212143
-P 10035 1135
+P 7505 1900
 AR Path="/5E74E3FF/5EB3C809/5F212143" Ref="#PWR?"  Part="1" 
-AR Path="/5E74E3FF/5F18BAC8/5F212143" Ref="#PWR066"  Part="1" 
-F 0 "#PWR066" H 10035 885 50  0001 C CNN
-F 1 "GND" H 10035 985 50  0000 C CNN
-F 2 "" H 10035 1135 50  0001 C CNN
-F 3 "" H 10035 1135 50  0001 C CNN
-	1    10035 1135
+AR Path="/5E74E3FF/5F18BAC8/5F212143" Ref="#PWR058"  Part="1" 
+F 0 "#PWR058" H 7505 1650 50  0001 C CNN
+F 1 "GND" H 7505 1750 50  0000 C CNN
+F 2 "" H 7505 1900 50  0001 C CNN
+F 3 "" H 7505 1900 50  0001 C CNN
+	1    7505 1900
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5F212149
-P 10335 1135
+P 7805 1900
 AR Path="/5E74E3FF/5EB3C809/5F212149" Ref="#PWR?"  Part="1" 
-AR Path="/5E74E3FF/5F18BAC8/5F212149" Ref="#PWR068"  Part="1" 
-F 0 "#PWR068" H 10335 885 50  0001 C CNN
-F 1 "GND" H 10335 985 50  0000 C CNN
-F 2 "" H 10335 1135 50  0001 C CNN
-F 3 "" H 10335 1135 50  0001 C CNN
-	1    10335 1135
+AR Path="/5E74E3FF/5F18BAC8/5F212149" Ref="#PWR060"  Part="1" 
+F 0 "#PWR060" H 7805 1650 50  0001 C CNN
+F 1 "GND" H 7805 1750 50  0000 C CNN
+F 2 "" H 7805 1900 50  0001 C CNN
+F 3 "" H 7805 1900 50  0001 C CNN
+	1    7805 1900
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5F21214F
-P 10635 1135
+P 8105 1900
 AR Path="/5E74E3FF/5EB3C809/5F21214F" Ref="#PWR?"  Part="1" 
-AR Path="/5E74E3FF/5F18BAC8/5F21214F" Ref="#PWR070"  Part="1" 
-F 0 "#PWR070" H 10635 885 50  0001 C CNN
-F 1 "GND" H 10635 985 50  0000 C CNN
-F 2 "" H 10635 1135 50  0001 C CNN
-F 3 "" H 10635 1135 50  0001 C CNN
-	1    10635 1135
+AR Path="/5E74E3FF/5F18BAC8/5F21214F" Ref="#PWR063"  Part="1" 
+F 0 "#PWR063" H 8105 1650 50  0001 C CNN
+F 1 "GND" H 8105 1750 50  0000 C CNN
+F 2 "" H 8105 1900 50  0001 C CNN
+F 3 "" H 8105 1900 50  0001 C CNN
+	1    8105 1900
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+1V2 #PWR?
 U 1 1 5F212155
-P 9735 835
+P 7205 1600
 AR Path="/5E74E3FF/5EB3C809/5F212155" Ref="#PWR?"  Part="1" 
-AR Path="/5E74E3FF/5F18BAC8/5F212155" Ref="#PWR064"  Part="1" 
-F 0 "#PWR064" H 9735 685 50  0001 C CNN
-F 1 "+1V2" H 9735 975 50  0000 C CNN
-F 2 "" H 9735 835 50  0001 C CNN
-F 3 "" H 9735 835 50  0001 C CNN
-	1    9735 835 
+AR Path="/5E74E3FF/5F18BAC8/5F212155" Ref="#PWR055"  Part="1" 
+F 0 "#PWR055" H 7205 1450 50  0001 C CNN
+F 1 "+1V2" H 7205 1740 50  0000 C CNN
+F 2 "" H 7205 1600 50  0001 C CNN
+F 3 "" H 7205 1600 50  0001 C CNN
+	1    7205 1600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9735 835  10035 835 
+	7205 1600 7505 1600
 Wire Wire Line
 	6585 835  6885 835 
 $Comp
-L TFG20:C100n C?
+L TFG20-rescue:C100n-TFG20-TFG20-rescue C?
 U 1 1 5F21215D
 P 6585 985
 AR Path="/5E74E3FF/5EB3C809/5F21215D" Ref="C?"  Part="1" 
-AR Path="/5E74E3FF/5F18BAC8/5F21215D" Ref="C7"  Part="1" 
-F 0 "C7" H 6610 1085 50  0000 L CNN
+AR Path="/5E74E3FF/5F18BAC8/5F21215D" Ref="C8"  Part="1" 
+F 0 "C8" H 6610 1085 50  0000 L CNN
 F 1 "C100n" H 6610 885 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 6623 835 50  0001 C CNN
 F 3 "https://es.rs-online.com/web/p/mlccs-condensadores-ceramicos-multicapa/9155613/" H 6585 985 50  0001 C CNN
@@ -231,12 +231,12 @@ F 3 "https://es.rs-online.com/web/p/mlccs-condensadores-ceramicos-multicapa/9155
 $EndComp
 Connection ~ 6585 835 
 $Comp
-L TFG20:C100n C?
+L TFG20-rescue:C100n-TFG20-TFG20-rescue C?
 U 1 1 5F212164
 P 6885 985
 AR Path="/5E74E3FF/5EB3C809/5F212164" Ref="C?"  Part="1" 
-AR Path="/5E74E3FF/5F18BAC8/5F212164" Ref="C8"  Part="1" 
-F 0 "C8" H 6910 1085 50  0000 L CNN
+AR Path="/5E74E3FF/5F18BAC8/5F212164" Ref="C10"  Part="1" 
+F 0 "C10" H 6910 1085 50  0000 L CNN
 F 1 "C100n" H 6910 885 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 6923 835 50  0001 C CNN
 F 3 "https://es.rs-online.com/web/p/mlccs-condensadores-ceramicos-multicapa/9155613/" H 6885 985 50  0001 C CNN
@@ -247,12 +247,12 @@ Connection ~ 6885 835
 Wire Wire Line
 	6885 835  7185 835 
 $Comp
-L TFG20:C100n C?
+L TFG20-rescue:C100n-TFG20-TFG20-rescue C?
 U 1 1 5F21216C
 P 7185 985
 AR Path="/5E74E3FF/5EB3C809/5F21216C" Ref="C?"  Part="1" 
-AR Path="/5E74E3FF/5F18BAC8/5F21216C" Ref="C10"  Part="1" 
-F 0 "C10" H 7210 1085 50  0000 L CNN
+AR Path="/5E74E3FF/5F18BAC8/5F21216C" Ref="C11"  Part="1" 
+F 0 "C11" H 7210 1085 50  0000 L CNN
 F 1 "C100n" H 7210 885 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 7223 835 50  0001 C CNN
 F 3 "https://es.rs-online.com/web/p/mlccs-condensadores-ceramicos-multicapa/9155613/" H 7185 985 50  0001 C CNN
@@ -263,12 +263,12 @@ Connection ~ 7185 835
 Wire Wire Line
 	7185 835  7485 835 
 $Comp
-L TFG20:C100n C?
+L TFG20-rescue:C100n-TFG20-TFG20-rescue C?
 U 1 1 5F212174
 P 7485 985
 AR Path="/5E74E3FF/5EB3C809/5F212174" Ref="C?"  Part="1" 
-AR Path="/5E74E3FF/5F18BAC8/5F212174" Ref="C11"  Part="1" 
-F 0 "C11" H 7510 1085 50  0000 L CNN
+AR Path="/5E74E3FF/5F18BAC8/5F212174" Ref="C14"  Part="1" 
+F 0 "C14" H 7510 1085 50  0000 L CNN
 F 1 "C100n" H 7510 885 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 7523 835 50  0001 C CNN
 F 3 "https://es.rs-online.com/web/p/mlccs-condensadores-ceramicos-multicapa/9155613/" H 7485 985 50  0001 C CNN
@@ -279,12 +279,12 @@ Connection ~ 7485 835
 Wire Wire Line
 	7485 835  7785 835 
 $Comp
-L TFG20:C100n C?
+L TFG20-rescue:C100n-TFG20-TFG20-rescue C?
 U 1 1 5F21217C
 P 7785 985
 AR Path="/5E74E3FF/5EB3C809/5F21217C" Ref="C?"  Part="1" 
-AR Path="/5E74E3FF/5F18BAC8/5F21217C" Ref="C13"  Part="1" 
-F 0 "C13" H 7810 1085 50  0000 L CNN
+AR Path="/5E74E3FF/5F18BAC8/5F21217C" Ref="C17"  Part="1" 
+F 0 "C17" H 7810 1085 50  0000 L CNN
 F 1 "C100n" H 7810 885 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 7823 835 50  0001 C CNN
 F 3 "https://es.rs-online.com/web/p/mlccs-condensadores-ceramicos-multicapa/9155613/" H 7785 985 50  0001 C CNN
@@ -295,12 +295,12 @@ Connection ~ 7785 835
 Wire Wire Line
 	7785 835  8085 835 
 $Comp
-L TFG20:C100n C?
+L TFG20-rescue:C100n-TFG20-TFG20-rescue C?
 U 1 1 5F212184
 P 8085 985
 AR Path="/5E74E3FF/5EB3C809/5F212184" Ref="C?"  Part="1" 
-AR Path="/5E74E3FF/5F18BAC8/5F212184" Ref="C15"  Part="1" 
-F 0 "C15" H 8110 1085 50  0000 L CNN
+AR Path="/5E74E3FF/5F18BAC8/5F212184" Ref="C19"  Part="1" 
+F 0 "C19" H 8110 1085 50  0000 L CNN
 F 1 "C100n" H 8110 885 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 8123 835 50  0001 C CNN
 F 3 "https://es.rs-online.com/web/p/mlccs-condensadores-ceramicos-multicapa/9155613/" H 8085 985 50  0001 C CNN
@@ -311,12 +311,12 @@ Connection ~ 8085 835
 Wire Wire Line
 	8085 835  8385 835 
 $Comp
-L TFG20:C100n C?
+L TFG20-rescue:C100n-TFG20-TFG20-rescue C?
 U 1 1 5F21218C
 P 8385 985
 AR Path="/5E74E3FF/5EB3C809/5F21218C" Ref="C?"  Part="1" 
-AR Path="/5E74E3FF/5F18BAC8/5F21218C" Ref="C17"  Part="1" 
-F 0 "C17" H 8410 1085 50  0000 L CNN
+AR Path="/5E74E3FF/5F18BAC8/5F21218C" Ref="C21"  Part="1" 
+F 0 "C21" H 8410 1085 50  0000 L CNN
 F 1 "C100n" H 8410 885 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 8423 835 50  0001 C CNN
 F 3 "https://es.rs-online.com/web/p/mlccs-condensadores-ceramicos-multicapa/9155613/" H 8385 985 50  0001 C CNN
@@ -327,12 +327,12 @@ Connection ~ 8385 835
 Wire Wire Line
 	8385 835  8685 835 
 $Comp
-L TFG20:C100n C?
+L TFG20-rescue:C100n-TFG20-TFG20-rescue C?
 U 1 1 5F212194
 P 8685 985
 AR Path="/5E74E3FF/5EB3C809/5F212194" Ref="C?"  Part="1" 
-AR Path="/5E74E3FF/5F18BAC8/5F212194" Ref="C18"  Part="1" 
-F 0 "C18" H 8710 1085 50  0000 L CNN
+AR Path="/5E74E3FF/5F18BAC8/5F212194" Ref="C22"  Part="1" 
+F 0 "C22" H 8710 1085 50  0000 L CNN
 F 1 "C100n" H 8710 885 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 8723 835 50  0001 C CNN
 F 3 "https://es.rs-online.com/web/p/mlccs-condensadores-ceramicos-multicapa/9155613/" H 8685 985 50  0001 C CNN
@@ -340,62 +340,62 @@ F 3 "https://es.rs-online.com/web/p/mlccs-condensadores-ceramicos-multicapa/9155
 	1    0    0    -1  
 $EndComp
 $Comp
-L TFG20:C100n C?
+L TFG20-rescue:C100n-TFG20-TFG20-rescue C?
 U 1 1 5F21219A
-P 9735 985
+P 7205 1750
 AR Path="/5E74E3FF/5EB3C809/5F21219A" Ref="C?"  Part="1" 
-AR Path="/5E74E3FF/5F18BAC8/5F21219A" Ref="C20"  Part="1" 
-F 0 "C20" H 9760 1085 50  0000 L CNN
-F 1 "C100n" H 9760 885 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 9773 835 50  0001 C CNN
-F 3 "https://es.rs-online.com/web/p/mlccs-condensadores-ceramicos-multicapa/9155613/" H 9735 985 50  0001 C CNN
-	1    9735 985 
+AR Path="/5E74E3FF/5F18BAC8/5F21219A" Ref="C12"  Part="1" 
+F 0 "C12" H 7230 1850 50  0000 L CNN
+F 1 "C100n" H 7230 1650 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7243 1600 50  0001 C CNN
+F 3 "https://es.rs-online.com/web/p/mlccs-condensadores-ceramicos-multicapa/9155613/" H 7205 1750 50  0001 C CNN
+	1    7205 1750
 	1    0    0    -1  
 $EndComp
-Connection ~ 9735 835 
+Connection ~ 7205 1600
 $Comp
-L TFG20:C100n C?
+L TFG20-rescue:C100n-TFG20-TFG20-rescue C?
 U 1 1 5F2121A1
-P 10035 985
+P 7505 1750
 AR Path="/5E74E3FF/5EB3C809/5F2121A1" Ref="C?"  Part="1" 
-AR Path="/5E74E3FF/5F18BAC8/5F2121A1" Ref="C21"  Part="1" 
-F 0 "C21" H 10060 1085 50  0000 L CNN
-F 1 "C100n" H 10060 885 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 10073 835 50  0001 C CNN
-F 3 "https://es.rs-online.com/web/p/mlccs-condensadores-ceramicos-multicapa/9155613/" H 10035 985 50  0001 C CNN
-	1    10035 985 
+AR Path="/5E74E3FF/5F18BAC8/5F2121A1" Ref="C15"  Part="1" 
+F 0 "C15" H 7530 1850 50  0000 L CNN
+F 1 "C100n" H 7530 1650 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7543 1600 50  0001 C CNN
+F 3 "https://es.rs-online.com/web/p/mlccs-condensadores-ceramicos-multicapa/9155613/" H 7505 1750 50  0001 C CNN
+	1    7505 1750
 	1    0    0    -1  
 $EndComp
-Connection ~ 10035 835 
+Connection ~ 7505 1600
 Wire Wire Line
-	10035 835  10335 835 
+	7505 1600 7805 1600
 $Comp
-L TFG20:C100n C?
+L TFG20-rescue:C100n-TFG20-TFG20-rescue C?
 U 1 1 5F2121A9
-P 10335 985
+P 7805 1750
 AR Path="/5E74E3FF/5EB3C809/5F2121A9" Ref="C?"  Part="1" 
-AR Path="/5E74E3FF/5F18BAC8/5F2121A9" Ref="C22"  Part="1" 
-F 0 "C22" H 10360 1085 50  0000 L CNN
-F 1 "C100n" H 10360 885 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 10373 835 50  0001 C CNN
-F 3 "https://es.rs-online.com/web/p/mlccs-condensadores-ceramicos-multicapa/9155613/" H 10335 985 50  0001 C CNN
-	1    10335 985 
+AR Path="/5E74E3FF/5F18BAC8/5F2121A9" Ref="C18"  Part="1" 
+F 0 "C18" H 7830 1850 50  0000 L CNN
+F 1 "C100n" H 7830 1650 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7843 1600 50  0001 C CNN
+F 3 "https://es.rs-online.com/web/p/mlccs-condensadores-ceramicos-multicapa/9155613/" H 7805 1750 50  0001 C CNN
+	1    7805 1750
 	1    0    0    -1  
 $EndComp
-Connection ~ 10335 835 
+Connection ~ 7805 1600
 Wire Wire Line
-	10335 835  10635 835 
+	7805 1600 8105 1600
 $Comp
-L TFG20:C100n C?
+L TFG20-rescue:C100n-TFG20-TFG20-rescue C?
 U 1 1 5F2121B1
-P 10635 985
+P 8105 1750
 AR Path="/5E74E3FF/5EB3C809/5F2121B1" Ref="C?"  Part="1" 
-AR Path="/5E74E3FF/5F18BAC8/5F2121B1" Ref="C23"  Part="1" 
-F 0 "C23" H 10660 1085 50  0000 L CNN
-F 1 "C100n" H 10660 885 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 10673 835 50  0001 C CNN
-F 3 "https://es.rs-online.com/web/p/mlccs-condensadores-ceramicos-multicapa/9155613/" H 10635 985 50  0001 C CNN
-	1    10635 985 
+AR Path="/5E74E3FF/5F18BAC8/5F2121B1" Ref="C20"  Part="1" 
+F 0 "C20" H 8130 1850 50  0000 L CNN
+F 1 "C100n" H 8130 1650 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8143 1600 50  0001 C CNN
+F 3 "https://es.rs-online.com/web/p/mlccs-condensadores-ceramicos-multicapa/9155613/" H 8105 1750 50  0001 C CNN
+	1    8105 1750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -506,8 +506,8 @@ L power:+3V3 #PWR?
 U 1 1 5F242F08
 P 10410 2850
 AR Path="/5E74E3FF/5EB3C809/5F242F08" Ref="#PWR?"  Part="1" 
-AR Path="/5E74E3FF/5F18BAC8/5F242F08" Ref="#PWR069"  Part="1" 
-F 0 "#PWR069" H 10410 2700 50  0001 C CNN
+AR Path="/5E74E3FF/5F18BAC8/5F242F08" Ref="#PWR070"  Part="1" 
+F 0 "#PWR070" H 10410 2700 50  0001 C CNN
 F 1 "+3V3" H 10410 2990 50  0000 C CNN
 F 2 "" H 10410 2850 50  0001 C CNN
 F 3 "" H 10410 2850 50  0001 C CNN
@@ -526,7 +526,7 @@ Wire Wire Line
 Wire Wire Line
 	10810 2500 10810 2850
 $Comp
-L TFG20:R10k R?
+L TFG20-rescue:R10k-TFG20-TFG20-rescue R?
 U 1 1 5F242F14
 P 10660 2850
 AR Path="/5E74E3FF/5EB3C809/5F242F14" Ref="R?"  Part="1" 
@@ -542,7 +542,7 @@ Connection ~ 10810 2850
 Wire Wire Line
 	10810 2850 10810 3100
 $Comp
-L TFG20:R1K R?
+L TFG20-rescue:R1K-TFG20-TFG20-rescue R?
 U 1 1 5F242F1C
 P 10810 2300
 AR Path="/5E74E3FF/5EB3C809/5F242F1C" Ref="R?"  Part="1" 
@@ -563,7 +563,7 @@ Wire Wire Line
 Text GLabel 4300 7530 0    50   Input ~ 0
 iCE_CDONE
 $Comp
-L TFG20:R10k R?
+L TFG20-rescue:R10k-TFG20-TFG20-rescue R?
 U 1 1 5F2508EB
 P 4450 7380
 AR Path="/5E74E3FF/5EB3C809/5F2508EB" Ref="R?"  Part="1" 
@@ -616,67 +616,67 @@ F 3 "" H 1800 7050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	9415 2255 9715 2255
+	8575 2645 8875 2645
 Wire Wire Line
-	9415 2285 9415 2255
+	8575 2675 8575 2645
 Wire Wire Line
-	9415 2585 9415 2655
+	8575 2975 8575 3045
 $Comp
-L TFG20:D_Schottky D?
+L TFG20-rescue:D_Schottky-TFG20-TFG20-rescue D?
 U 1 1 5F2683CE
-P 9415 2435
+P 8575 2825
 AR Path="/5E74E3FF/5EB3C809/5F2683CE" Ref="D?"  Part="1" 
 AR Path="/5E74E3FF/5F18BAC8/5F2683CE" Ref="D2"  Part="1" 
-F 0 "D2" H 9415 2535 50  0000 C CNN
-F 1 "D_Schottky" V 9130 2435 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-523" H 9415 2435 50  0001 C CNN
-F 3 "https://es.rs-online.com/web/p/diodos-schottky-y-rectificadores/7916321/" H 9415 2435 50  0001 C CNN
-	1    9415 2435
+F 0 "D2" H 8575 2925 50  0000 C CNN
+F 1 "D_Schottky" V 8290 2825 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-523" H 8575 2825 50  0001 C CNN
+F 3 "https://es.rs-online.com/web/p/diodos-schottky-y-rectificadores/7916321/" H 8575 2825 50  0001 C CNN
+	1    8575 2825
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TFG20:C100n C?
+L TFG20-rescue:C100n-TFG20-TFG20-rescue C?
 U 1 1 5F2683D4
-P 9715 2405
+P 8875 2795
 AR Path="/5E74E3FF/5EB3C809/5F2683D4" Ref="C?"  Part="1" 
-AR Path="/5E74E3FF/5F18BAC8/5F2683D4" Ref="C19"  Part="1" 
-F 0 "C19" H 9740 2505 50  0000 L CNN
-F 1 "C100n" H 9740 2305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 9753 2255 50  0001 C CNN
-F 3 "https://es.rs-online.com/web/p/mlccs-condensadores-ceramicos-multicapa/9155613/" H 9715 2405 50  0001 C CNN
-	1    9715 2405
+AR Path="/5E74E3FF/5F18BAC8/5F2683D4" Ref="C23"  Part="1" 
+F 0 "C23" H 8900 2895 50  0000 L CNN
+F 1 "C100n" H 8900 2695 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8913 2645 50  0001 C CNN
+F 3 "https://es.rs-online.com/web/p/mlccs-condensadores-ceramicos-multicapa/9155613/" H 8875 2795 50  0001 C CNN
+	1    8875 2795
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5F2683DB
-P 9715 2555
+P 8875 2945
 AR Path="/5E74E3FF/5EB3C809/5F2683DB" Ref="#PWR?"  Part="1" 
-AR Path="/5E74E3FF/5F18BAC8/5F2683DB" Ref="#PWR063"  Part="1" 
-F 0 "#PWR063" H 9715 2305 50  0001 C CNN
-F 1 "GND" H 9715 2405 50  0000 C CNN
-F 2 "" H 9715 2555 50  0001 C CNN
-F 3 "" H 9715 2555 50  0001 C CNN
-	1    9715 2555
+AR Path="/5E74E3FF/5F18BAC8/5F2683DB" Ref="#PWR068"  Part="1" 
+F 0 "#PWR068" H 8875 2695 50  0001 C CNN
+F 1 "GND" H 8875 2795 50  0000 C CNN
+F 2 "" H 8875 2945 50  0001 C CNN
+F 3 "" H 8875 2945 50  0001 C CNN
+	1    8875 2945
 	1    0    0    -1  
 $EndComp
-Connection ~ 9715 2255
+Connection ~ 8875 2645
 $Comp
 L power:+3V3 #PWR?
 U 1 1 5F2683E2
-P 9715 2255
+P 8875 2645
 AR Path="/5E74E3FF/5EB3C809/5F2683E2" Ref="#PWR?"  Part="1" 
-AR Path="/5E74E3FF/5F18BAC8/5F2683E2" Ref="#PWR062"  Part="1" 
-F 0 "#PWR062" H 9715 2105 50  0001 C CNN
-F 1 "+3V3" H 9715 2395 50  0000 C CNN
-F 2 "" H 9715 2255 50  0001 C CNN
-F 3 "" H 9715 2255 50  0001 C CNN
-	1    9715 2255
+AR Path="/5E74E3FF/5F18BAC8/5F2683E2" Ref="#PWR067"  Part="1" 
+F 0 "#PWR067" H 8875 2495 50  0001 C CNN
+F 1 "+3V3" H 8875 2785 50  0000 C CNN
+F 2 "" H 8875 2645 50  0001 C CNN
+F 3 "" H 8875 2645 50  0001 C CNN
+	1    8875 2645
 	1    0    0    -1  
 $EndComp
-Text Label 9170 2255 0    50   ~ 0
+Text Label 8330 2645 0    50   ~ 0
 VCC_SPI
-Text Label 9065 2655 0    50   ~ 0
+Text Label 8225 3045 0    50   ~ 0
 VPP_2V5
 Text Label 5000 7155 1    50   ~ 0
 VCC_SPI
@@ -687,73 +687,73 @@ VPP_2V5
 Wire Wire Line
 	5300 2220 5640 2220
 Wire Wire Line
-	8015 2815 8365 2815
+	7390 3185 7740 3185
 Wire Wire Line
-	8015 2115 8365 2115
+	7390 2485 7740 2485
 Wire Wire Line
-	8015 2615 8015 2815
+	7390 2985 7390 3185
 Wire Wire Line
-	8015 2315 8015 2115
+	7390 2685 7390 2485
 $Comp
 L power:+1V2 #PWR?
 U 1 1 5F271345
-P 8665 2115
+P 8040 2485
 AR Path="/5E74E3FF/5EB3C809/5F271345" Ref="#PWR?"  Part="1" 
-AR Path="/5E74E3FF/5F18BAC8/5F271345" Ref="#PWR060"  Part="1" 
-F 0 "#PWR060" H 8665 1965 50  0001 C CNN
-F 1 "+1V2" H 8665 2255 50  0000 C CNN
-F 2 "" H 8665 2115 50  0001 C CNN
-F 3 "" H 8665 2115 50  0001 C CNN
-	1    8665 2115
+AR Path="/5E74E3FF/5F18BAC8/5F271345" Ref="#PWR061"  Part="1" 
+F 0 "#PWR061" H 8040 2335 50  0001 C CNN
+F 1 "+1V2" H 8040 2625 50  0000 C CNN
+F 2 "" H 8040 2485 50  0001 C CNN
+F 3 "" H 8040 2485 50  0001 C CNN
+	1    8040 2485
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8365 2815 8365 2615
+	7740 3185 7740 2985
 Wire Wire Line
-	8365 2115 8365 2315
+	7740 2485 7740 2685
 $Comp
-L TFG20:R100 R?
+L TFG20-rescue:R100-TFG20-TFG20-rescue R?
 U 1 1 5F27134D
-P 8515 2115
+P 7890 2485
 AR Path="/5E74E3FF/5EB3C809/5F27134D" Ref="R?"  Part="1" 
-AR Path="/5E74E3FF/5F18BAC8/5F27134D" Ref="R43"  Part="1" 
-F 0 "R43" V 8595 2115 50  0000 C CNN
-F 1 "R100" V 8515 2115 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 8445 2115 50  0001 C CNN
-F 3 "https://es.rs-online.com/web/p/resistencias-fijas-para-montaje-en-superficie/8121739/" H 8515 2115 50  0001 C CNN
-	1    8515 2115
+AR Path="/5E74E3FF/5F18BAC8/5F27134D" Ref="R42"  Part="1" 
+F 0 "R42" V 7970 2485 50  0000 C CNN
+F 1 "R100" V 7890 2485 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7820 2485 50  0001 C CNN
+F 3 "https://es.rs-online.com/web/p/resistencias-fijas-para-montaje-en-superficie/8121739/" H 7890 2485 50  0001 C CNN
+	1    7890 2485
 	0    1    1    0   
 $EndComp
-Connection ~ 8365 2115
+Connection ~ 7740 2485
 $Comp
-L TFG20:C10u C?
+L TFG20-rescue:C10u-TFG20-TFG20-rescue C?
 U 1 1 5F271354
-P 8365 2465
+P 7740 2835
 AR Path="/5E74E3FF/5EB3C809/5F271354" Ref="C?"  Part="1" 
 AR Path="/5E74E3FF/5F18BAC8/5F271354" Ref="C16"  Part="1" 
-F 0 "C16" H 8390 2565 50  0000 L CNN
-F 1 "C10u" H 8390 2365 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 8403 2315 50  0001 C CNN
-F 3 "https://es.rs-online.com/web/p/mlccs-condensadores-ceramicos-multicapa/7882893/" H 8365 2465 50  0001 C CNN
-	1    8365 2465
+F 0 "C16" H 7765 2935 50  0000 L CNN
+F 1 "C10u" H 7765 2735 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7778 2685 50  0001 C CNN
+F 3 "https://es.rs-online.com/web/p/mlccs-condensadores-ceramicos-multicapa/7882893/" H 7740 2835 50  0001 C CNN
+	1    7740 2835
 	1    0    0    -1  
 $EndComp
 $Comp
-L TFG20:C100n C?
+L TFG20-rescue:C100n-TFG20-TFG20-rescue C?
 U 1 1 5F27135A
-P 8015 2465
+P 7390 2835
 AR Path="/5E74E3FF/5EB3C809/5F27135A" Ref="C?"  Part="1" 
-AR Path="/5E74E3FF/5F18BAC8/5F27135A" Ref="C14"  Part="1" 
-F 0 "C14" H 8040 2565 50  0000 L CNN
-F 1 "C100n" H 8040 2365 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 8053 2315 50  0001 C CNN
-F 3 "https://es.rs-online.com/web/p/mlccs-condensadores-ceramicos-multicapa/9155613/" H 8015 2465 50  0001 C CNN
-	1    8015 2465
+AR Path="/5E74E3FF/5F18BAC8/5F27135A" Ref="C13"  Part="1" 
+F 0 "C13" H 7415 2935 50  0000 L CNN
+F 1 "C100n" H 7415 2735 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7428 2685 50  0001 C CNN
+F 3 "https://es.rs-online.com/web/p/mlccs-condensadores-ceramicos-multicapa/9155613/" H 7390 2835 50  0001 C CNN
+	1    7390 2835
 	1    0    0    -1  
 $EndComp
-Text Label 8015 2115 0    50   ~ 0
+Text Label 7390 2485 0    50   ~ 0
 VCC_PLL1
-Text Label 8015 2815 0    50   ~ 0
+Text Label 7390 3185 0    50   ~ 0
 GND_PLL1
 Text Label 3200 700  3    50   ~ 0
 GND_PLL1
@@ -764,73 +764,73 @@ VCC_PLL1
 Wire Wire Line
 	3300 700  3300 1120
 Wire Wire Line
-	7145 2810 7495 2810
+	6520 3180 6870 3180
 Wire Wire Line
-	7145 2110 7495 2110
+	6520 2480 6870 2480
 Wire Wire Line
-	7145 2610 7145 2810
+	6520 2980 6520 3180
 Wire Wire Line
-	7145 2310 7145 2110
+	6520 2680 6520 2480
 $Comp
 L power:+1V2 #PWR?
 U 1 1 5F2898AA
-P 7795 2110
+P 7170 2480
 AR Path="/5E74E3FF/5EB3C809/5F2898AA" Ref="#PWR?"  Part="1" 
-AR Path="/5E74E3FF/5F18BAC8/5F2898AA" Ref="#PWR056"  Part="1" 
-F 0 "#PWR056" H 7795 1960 50  0001 C CNN
-F 1 "+1V2" H 7795 2250 50  0000 C CNN
-F 2 "" H 7795 2110 50  0001 C CNN
-F 3 "" H 7795 2110 50  0001 C CNN
-	1    7795 2110
+AR Path="/5E74E3FF/5F18BAC8/5F2898AA" Ref="#PWR053"  Part="1" 
+F 0 "#PWR053" H 7170 2330 50  0001 C CNN
+F 1 "+1V2" H 7170 2620 50  0000 C CNN
+F 2 "" H 7170 2480 50  0001 C CNN
+F 3 "" H 7170 2480 50  0001 C CNN
+	1    7170 2480
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7495 2810 7495 2610
+	6870 3180 6870 2980
 Wire Wire Line
-	7495 2110 7495 2310
+	6870 2480 6870 2680
 $Comp
-L TFG20:R100 R?
+L TFG20-rescue:R100-TFG20-TFG20-rescue R?
 U 1 1 5F2898B2
-P 7645 2110
+P 7020 2480
 AR Path="/5E74E3FF/5EB3C809/5F2898B2" Ref="R?"  Part="1" 
-AR Path="/5E74E3FF/5F18BAC8/5F2898B2" Ref="R40"  Part="1" 
-F 0 "R40" V 7725 2110 50  0000 C CNN
-F 1 "R100" V 7645 2110 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 7575 2110 50  0001 C CNN
-F 3 "https://es.rs-online.com/web/p/resistencias-fijas-para-montaje-en-superficie/8121739/" H 7645 2110 50  0001 C CNN
-	1    7645 2110
+AR Path="/5E74E3FF/5F18BAC8/5F2898B2" Ref="R38"  Part="1" 
+F 0 "R38" V 7100 2480 50  0000 C CNN
+F 1 "R100" V 7020 2480 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6950 2480 50  0001 C CNN
+F 3 "https://es.rs-online.com/web/p/resistencias-fijas-para-montaje-en-superficie/8121739/" H 7020 2480 50  0001 C CNN
+	1    7020 2480
 	0    1    1    0   
 $EndComp
-Connection ~ 7495 2110
+Connection ~ 6870 2480
 $Comp
-L TFG20:C10u C?
+L TFG20-rescue:C10u-TFG20-TFG20-rescue C?
 U 1 1 5F2898B9
-P 7495 2460
+P 6870 2830
 AR Path="/5E74E3FF/5EB3C809/5F2898B9" Ref="C?"  Part="1" 
-AR Path="/5E74E3FF/5F18BAC8/5F2898B9" Ref="C12"  Part="1" 
-F 0 "C12" H 7520 2560 50  0000 L CNN
-F 1 "C10u" H 7520 2360 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 7533 2310 50  0001 C CNN
-F 3 "https://es.rs-online.com/web/p/mlccs-condensadores-ceramicos-multicapa/7882893/" H 7495 2460 50  0001 C CNN
-	1    7495 2460
+AR Path="/5E74E3FF/5F18BAC8/5F2898B9" Ref="C9"  Part="1" 
+F 0 "C9" H 6895 2930 50  0000 L CNN
+F 1 "C10u" H 6895 2730 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6908 2680 50  0001 C CNN
+F 3 "https://es.rs-online.com/web/p/mlccs-condensadores-ceramicos-multicapa/7882893/" H 6870 2830 50  0001 C CNN
+	1    6870 2830
 	1    0    0    -1  
 $EndComp
 $Comp
-L TFG20:C100n C?
+L TFG20-rescue:C100n-TFG20-TFG20-rescue C?
 U 1 1 5F2898BF
-P 7145 2460
+P 6520 2830
 AR Path="/5E74E3FF/5EB3C809/5F2898BF" Ref="C?"  Part="1" 
-AR Path="/5E74E3FF/5F18BAC8/5F2898BF" Ref="C9"  Part="1" 
-F 0 "C9" H 7170 2560 50  0000 L CNN
-F 1 "C100n" H 7170 2360 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 7183 2310 50  0001 C CNN
-F 3 "https://es.rs-online.com/web/p/mlccs-condensadores-ceramicos-multicapa/9155613/" H 7145 2460 50  0001 C CNN
-	1    7145 2460
+AR Path="/5E74E3FF/5F18BAC8/5F2898BF" Ref="C7"  Part="1" 
+F 0 "C7" H 6545 2930 50  0000 L CNN
+F 1 "C100n" H 6545 2730 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6558 2680 50  0001 C CNN
+F 3 "https://es.rs-online.com/web/p/mlccs-condensadores-ceramicos-multicapa/9155613/" H 6520 2830 50  0001 C CNN
+	1    6520 2830
 	1    0    0    -1  
 $EndComp
-Text Label 7145 2110 0    50   ~ 0
+Text Label 6520 2480 0    50   ~ 0
 VCC_PLL0
-Text Label 7145 2810 0    50   ~ 0
+Text Label 6520 3180 0    50   ~ 0
 GND_PLL0
 Text Label 3200 7250 1    50   ~ 0
 VCC_PLL0
@@ -899,7 +899,7 @@ F 3 "" H 5300 4120 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L TFG20:W25Q32JVSSIQ IC?
+L TFG20-rescue:W25Q32JVSSIQ-TFG20-TFG20-rescue IC?
 U 1 1 5F2B657A
 P 8385 5030
 AR Path="/5E74E3FF/5EB3C809/5F2B657A" Ref="IC?"  Part="1" 
@@ -922,8 +922,8 @@ L power:+3V3 #PWR?
 U 1 1 5F2B6581
 P 10085 4280
 AR Path="/5E74E3FF/5EB3C809/5F2B6581" Ref="#PWR?"  Part="1" 
-AR Path="/5E74E3FF/5F18BAC8/5F2B6581" Ref="#PWR067"  Part="1" 
-F 0 "#PWR067" H 10085 4130 50  0001 C CNN
+AR Path="/5E74E3FF/5F18BAC8/5F2B6581" Ref="#PWR069"  Part="1" 
+F 0 "#PWR069" H 10085 4130 50  0001 C CNN
 F 1 "+3V3" H 10085 4420 50  0000 C CNN
 F 2 "" H 10085 4280 50  0001 C CNN
 F 3 "" H 10085 4280 50  0001 C CNN
@@ -935,8 +935,8 @@ L power:GND #PWR?
 U 1 1 5F2B6587
 P 8385 5330
 AR Path="/5E74E3FF/5EB3C809/5F2B6587" Ref="#PWR?"  Part="1" 
-AR Path="/5E74E3FF/5F18BAC8/5F2B6587" Ref="#PWR059"  Part="1" 
-F 0 "#PWR059" H 8385 5080 50  0001 C CNN
+AR Path="/5E74E3FF/5F18BAC8/5F2B6587" Ref="#PWR065"  Part="1" 
+F 0 "#PWR065" H 8385 5080 50  0001 C CNN
 F 1 "GND" H 8385 5180 50  0000 C CNN
 F 2 "" H 8385 5330 50  0001 C CNN
 F 3 "" H 8385 5330 50  0001 C CNN
@@ -1059,7 +1059,7 @@ Connection ~ 10085 4730
 Wire Wire Line
 	10085 4730 10085 5030
 $Comp
-L TFG20:R10k R?
+L TFG20-rescue:R10k-TFG20-TFG20-rescue R?
 U 1 1 5F2B65CB
 P 10630 4780
 AR Path="/5E74E3FF/5EB3C809/5F2B65CB" Ref="R?"  Part="1" 
@@ -1074,7 +1074,7 @@ $EndComp
 Wire Wire Line
 	10385 4730 10085 4730
 $Comp
-L TFG20:R10k R?
+L TFG20-rescue:R10k-TFG20-TFG20-rescue R?
 U 1 1 5F2B65D2
 P 10385 4880
 AR Path="/5E74E3FF/5EB3C809/5F2B65D2" Ref="R?"  Part="1" 
@@ -1087,7 +1087,7 @@ F 3 "https://es.rs-online.com/web/p/resistencias-fijas-para-montaje-en-superfici
 	1    0    0    -1  
 $EndComp
 $Comp
-L TFG20:R10k R?
+L TFG20-rescue:R10k-TFG20-TFG20-rescue R?
 U 1 1 5F2B65D8
 P 9585 4630
 AR Path="/5E74E3FF/5EB3C809/5F2B65D8" Ref="R?"  Part="1" 
@@ -1100,7 +1100,7 @@ F 3 "https://es.rs-online.com/web/p/resistencias-fijas-para-montaje-en-superfici
 	0    1    1    0   
 $EndComp
 $Comp
-L TFG20:R10k R?
+L TFG20-rescue:R10k-TFG20-TFG20-rescue R?
 U 1 1 5F2B65DE
 P 9585 4430
 AR Path="/5E74E3FF/5EB3C809/5F2B65DE" Ref="R?"  Part="1" 
@@ -1113,25 +1113,25 @@ F 3 "https://es.rs-online.com/web/p/resistencias-fijas-para-montaje-en-superfici
 	0    1    1    0   
 $EndComp
 $Comp
-L TFG20:R2k2 R?
+L TFG20-rescue:R2k2-TFG20-TFG20-rescue R?
 U 1 1 5F2B65E4
 P 6865 4480
 AR Path="/5E74E3FF/5EB3C809/5F2B65E4" Ref="R?"  Part="1" 
 AR Path="/5E74E3FF/5F18BAC8/5F2B65E4" Ref="R37"  Part="1" 
 F 0 "R37" V 6945 4480 50  0000 C CNN
-F 1 "R2k2" V 6865 4480 50  0000 C CNN
+F 1 "R2k2" V 6750 4470 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 6795 4480 50  0001 C CNN
 F 3 "https://es.rs-online.com/web/p/resistencias-fijas-para-montaje-en-superficie/6789071/" H 6865 4480 50  0001 C CNN
 	1    6865 4480
 	1    0    0    -1  
 $EndComp
 $Comp
-L TFG20:R470 R?
+L TFG20-rescue:R470-TFG20-TFG20-rescue R?
 U 1 1 5F2B65EA
 P 7160 3980
 AR Path="/5E74E3FF/5EB3C809/5F2B65EA" Ref="R?"  Part="1" 
-AR Path="/5E74E3FF/5F18BAC8/5F2B65EA" Ref="R38"  Part="1" 
-F 0 "R38" V 7240 3980 50  0000 C CNN
+AR Path="/5E74E3FF/5F18BAC8/5F2B65EA" Ref="R39"  Part="1" 
+F 0 "R39" V 7240 3980 50  0000 C CNN
 F 1 "R470" V 7160 3980 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 7090 3980 50  0001 C CNN
 F 3 "https://es.rs-online.com/web/p/resistencias-fijas-para-montaje-en-superficie/1991341/" H 7160 3980 50  0001 C CNN
@@ -1139,12 +1139,12 @@ F 3 "https://es.rs-online.com/web/p/resistencias-fijas-para-montaje-en-superfici
 	1    0    0    -1  
 $EndComp
 $Comp
-L TFG20:R470 R?
+L TFG20-rescue:R470-TFG20-TFG20-rescue R?
 U 1 1 5F2B65F0
 P 7510 3980
 AR Path="/5E74E3FF/5EB3C809/5F2B65F0" Ref="R?"  Part="1" 
-AR Path="/5E74E3FF/5F18BAC8/5F2B65F0" Ref="R39"  Part="1" 
-F 0 "R39" V 7590 3980 50  0000 C CNN
+AR Path="/5E74E3FF/5F18BAC8/5F2B65F0" Ref="R40"  Part="1" 
+F 0 "R40" V 7590 3980 50  0000 C CNN
 F 1 "R470" V 7510 3980 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 7440 3980 50  0001 C CNN
 F 3 "https://es.rs-online.com/web/p/resistencias-fijas-para-montaje-en-superficie/1991341/" H 7510 3980 50  0001 C CNN
@@ -1152,7 +1152,7 @@ F 3 "https://es.rs-online.com/web/p/resistencias-fijas-para-montaje-en-superfici
 	1    0    0    -1  
 $EndComp
 $Comp
-L TFG20:R470 R?
+L TFG20-rescue:R470-TFG20-TFG20-rescue R?
 U 1 1 5F2B65F6
 P 7810 3980
 AR Path="/5E74E3FF/5EB3C809/5F2B65F6" Ref="R?"  Part="1" 
@@ -1165,12 +1165,12 @@ F 3 "https://es.rs-online.com/web/p/resistencias-fijas-para-montaje-en-superfici
 	1    0    0    -1  
 $EndComp
 $Comp
-L TFG20:R470 R?
+L TFG20-rescue:R470-TFG20-TFG20-rescue R?
 U 1 1 5F2B65FC
 P 8160 3980
 AR Path="/5E74E3FF/5EB3C809/5F2B65FC" Ref="R?"  Part="1" 
-AR Path="/5E74E3FF/5F18BAC8/5F2B65FC" Ref="R42"  Part="1" 
-F 0 "R42" V 8240 3980 50  0000 C CNN
+AR Path="/5E74E3FF/5F18BAC8/5F2B65FC" Ref="R43"  Part="1" 
+F 0 "R43" V 8240 3980 50  0000 C CNN
 F 1 "R470" V 8160 3980 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 8090 3980 50  0001 C CNN
 F 3 "https://es.rs-online.com/web/p/resistencias-fijas-para-montaje-en-superficie/1991341/" H 8160 3980 50  0001 C CNN
@@ -1178,7 +1178,7 @@ F 3 "https://es.rs-online.com/web/p/resistencias-fijas-para-montaje-en-superfici
 	1    0    0    -1  
 $EndComp
 $Comp
-L TFG20:C100n C?
+L TFG20-rescue:C100n-TFG20-TFG20-rescue C?
 U 1 1 5F2B6602
 P 10910 4780
 AR Path="/5E74E3FF/5EB3C809/5F2B6602" Ref="C?"  Part="1" 
@@ -1205,7 +1205,7 @@ F 3 "" H 6865 3590 50  0001 C CNN
 $EndComp
 Connection ~ 6865 4630
 $Comp
-L TFG20:LED_AMARILLO LED_FP?
+L TFG20-rescue:LED_AMARILLO-TFG20-TFG20-rescue LED_FP?
 U 1 1 5F2B6616
 P 6865 4330
 AR Path="/5E74E3FF/5EB3C809/5F2B6616" Ref="LED_FP?"  Part="1" 
@@ -1227,15 +1227,15 @@ $EndComp
 Wire Wire Line
 	6865 3730 6865 3590
 Wire Wire Line
-	9415 2255 9170 2255
-Connection ~ 9415 2255
+	8575 2645 8330 2645
+Connection ~ 8575 2645
 Wire Wire Line
-	9065 2655 9415 2655
+	8225 3045 8575 3045
 Wire Wire Line
-	9420 2655 9420 2660
-Connection ~ 9415 2655
+	8580 3045 8580 3050
+Connection ~ 8575 3045
 Wire Wire Line
-	9415 2655 9420 2655
+	8575 3045 8580 3045
 Text Label 6865 6095 1    50   ~ 0
 IOB_SS
 Text Label 7165 6095 1    50   ~ 0
@@ -1418,16 +1418,16 @@ VSync
 Text GLabel 2700 6820 3    50   Output ~ 0
 iCE_CLK
 Text GLabel 2300 6820 3    50   Output ~ 0
-LED2
+LED_0
 Text GLabel 2200 6820 3    50   Output ~ 0
-LED0
+LED_1
 Text GLabel 2100 6820 3    50   Output ~ 0
-LED1
+LED_2
 Text GLabel 2000 6820 3    50   Output ~ 0
-LED3
-Text GLabel 1500 6820 3    50   Input ~ 0
-U_SW1
+LED_3
 Text GLabel 1600 6820 3    50   Input ~ 0
+U_SW1
+Text GLabel 1500 6820 3    50   Input ~ 0
 U_SW2
 Text GLabel 1200 3620 0    50   Input ~ 0
 M_A1

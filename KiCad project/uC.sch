@@ -13,17 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L power:GND #PWR0100
-U 1 1 5E815E1B
-P 7630 2860
-F 0 "#PWR0100" H 7630 2610 50  0001 C CNN
-F 1 "GND" H 7635 2687 50  0000 C CNN
-F 2 "" H 7630 2860 50  0001 C CNN
-F 3 "" H 7630 2860 50  0001 C CNN
-	1    7630 2860
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8680 2000 7940 2000
 $Comp
@@ -90,7 +79,7 @@ Connection ~ 1980 840
 Wire Wire Line
 	1980 840  2480 840 
 $Comp
-L TFG20:C100n C28
+L TFG20-rescue:C100n-TFG20-TFG20-rescue C28
 U 1 1 5EB6634E
 P 1980 1190
 F 0 "C28" H 2095 1236 50  0000 L CNN
@@ -101,7 +90,7 @@ F 3 "https://es.rs-online.com/web/p/mlccs-condensadores-ceramicos-multicapa/9155
 	1    0    0    -1  
 $EndComp
 $Comp
-L TFG20:C100n C29
+L TFG20-rescue:C100n-TFG20-TFG20-rescue C29
 U 1 1 5EB66952
 P 2480 1190
 F 0 "C29" H 2595 1236 50  0000 L CNN
@@ -234,7 +223,7 @@ Wire Wire Line
 Wire Wire Line
 	7380 1200 7980 1200
 $Comp
-L TFG20:C100n C40
+L TFG20-rescue:C100n-TFG20-TFG20-rescue C40
 U 1 1 5EBC5E18
 P 7980 1350
 F 0 "C40" H 8095 1396 50  0000 L CNN
@@ -254,28 +243,6 @@ F 2 "" H 7980 1500 50  0001 C CNN
 F 3 "" H 7980 1500 50  0001 C CNN
 	1    7980 1500
 	1    0    0    -1  
-$EndComp
-$Comp
-L TFG20:C20p C39
-U 1 1 5EBEE83F
-P 7940 2150
-F 0 "C39" V 7688 2150 50  0000 C CNN
-F 1 "C20p" V 7779 2150 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 7978 2000 50  0001 C CNN
-F 3 "https://es.rs-online.com/web/p/mlccs-condensadores-ceramicos-multicapa/7880355/" H 7940 2150 50  0001 C CNN
-	1    7940 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L TFG20:C20p C38
-U 1 1 5EBEDEA5
-P 7630 2710
-F 0 "C38" H 7460 2970 50  0000 C CNN
-F 1 "C20p" H 7480 2880 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 7668 2560 50  0001 C CNN
-F 3 "https://es.rs-online.com/web/p/mlccs-condensadores-ceramicos-multicapa/7880355/" H 7630 2710 50  0001 C CNN
-	1    7630 2710
-	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR0105
@@ -333,7 +300,7 @@ F 3 "" H 9580 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TFG20:C4.7uElect C25
+L TFG20-rescue:C4.7uElect-TFG20-TFG20-rescue C25
 U 1 1 5EC1861B
 P 780 1040
 F 0 "C25" H 895 1086 50  0000 L CNN
@@ -426,7 +393,7 @@ Wire Wire Line
 Wire Wire Line
 	4100 2960 4780 2960
 $Comp
-L TFG20:C100n C32
+L TFG20-rescue:C100n-TFG20-TFG20-rescue C32
 U 1 1 5ECA76CF
 P 3900 3610
 F 0 "C32" H 3925 3710 50  0000 L CNN
@@ -437,7 +404,7 @@ F 3 "https://es.rs-online.com/web/p/mlccs-condensadores-ceramicos-multicapa/9155
 	1    0    0    -1  
 $EndComp
 $Comp
-L TFG20:C100n C35
+L TFG20-rescue:C100n-TFG20-TFG20-rescue C35
 U 1 1 5ECA76D5
 P 4500 3610
 F 0 "C35" H 4525 3710 50  0000 L CNN
@@ -448,7 +415,7 @@ F 3 "https://es.rs-online.com/web/p/mlccs-condensadores-ceramicos-multicapa/9155
 	1    0    0    -1  
 $EndComp
 $Comp
-L TFG20:R10k R54
+L TFG20-rescue:R10k-TFG20-TFG20-rescue R54
 U 1 1 5ECA76DB
 P 4100 3610
 F 0 "R54" V 4180 3610 50  0000 C CNN
@@ -459,7 +426,7 @@ F 3 "https://es.rs-online.com/web/p/resistencias-fijas-para-montaje-en-superfici
 	1    0    0    -1  
 $EndComp
 $Comp
-L TFG20:R10k R55
+L TFG20-rescue:R10k-TFG20-TFG20-rescue R55
 U 1 1 5ECA76E1
 P 4700 3610
 F 0 "R55" V 4780 3610 50  0000 C CNN
@@ -470,7 +437,7 @@ F 3 "https://es.rs-online.com/web/p/resistencias-fijas-para-montaje-en-superfici
 	1    0    0    -1  
 $EndComp
 $Comp
-L TFG20:R1K R56
+L TFG20-rescue:R1K-TFG20-TFG20-rescue R56
 U 1 1 5ECA76E7
 P 6350 2510
 F 0 "R56" V 6430 2510 50  0000 C CNN
@@ -488,7 +455,7 @@ Wire Wire Line
 Text Notes 3660 4210 0    129  ~ 0
 USER SWITCHES\n
 $Comp
-L TFG20:C100n C30
+L TFG20-rescue:C100n-TFG20-TFG20-rescue C30
 U 1 1 5EBF2641
 P 2980 1190
 F 0 "C30" H 3095 1236 50  0000 L CNN
@@ -499,7 +466,7 @@ F 3 "https://es.rs-online.com/web/p/mlccs-condensadores-ceramicos-multicapa/9155
 	1    0    0    -1  
 $EndComp
 $Comp
-L TFG20:C10n C27
+L TFG20-rescue:C10n-TFG20-TFG20-rescue C27
 U 1 1 5EB94645
 P 1540 2020
 F 0 "C27" H 1655 2066 50  0000 L CNN
@@ -511,7 +478,7 @@ F 3 "https://es.rs-online.com/web/p/mlccs-condensadores-ceramicos-multicapa/2644
 $EndComp
 Connection ~ 1240 1870
 $Comp
-L TFG20:C1u C26
+L TFG20-rescue:C1u-TFG20-TFG20-rescue C26
 U 1 1 5EB9B3A5
 P 1240 2020
 F 0 "C26" H 1355 2066 50  0000 L CNN
@@ -522,7 +489,7 @@ F 3 "https://es.rs-online.com/web/p/mlccs-condensadores-ceramicos-multicapa/6911
 	1    0    0    -1  
 $EndComp
 $Comp
-L TFG20:C100n C31
+L TFG20-rescue:C100n-TFG20-TFG20-rescue C31
 U 1 1 5EB76615
 P 3480 1490
 F 0 "C31" H 3595 1536 50  0000 L CNN
@@ -533,7 +500,7 @@ F 3 "https://es.rs-online.com/web/p/mlccs-condensadores-ceramicos-multicapa/9155
 	1    0    0    -1  
 $EndComp
 $Comp
-L TFG20:C4.7uElect C33
+L TFG20-rescue:C4.7uElect-TFG20-TFG20-rescue C33
 U 1 1 5EBF9F11
 P 3980 1490
 F 0 "C33" H 4095 1536 50  0000 L CNN
@@ -550,23 +517,6 @@ Wire Wire Line
 Connection ~ 1240 840 
 Wire Wire Line
 	1240 840  1980 840 
-$Comp
-L TFG20:BLM18KG331SN1D FB3
-U 1 1 5EC13616
-P 1240 1210
-F 0 "FB3" H 1250 1483 50  0000 C CNN
-F 1 "BLM18KG331SN1D" H 1250 1392 50  0000 C CNN
-F 2 "BEADC1608X95N" H 1890 1310 50  0001 L CNN
-F 3 "http://uk.rs-online.com/web/p/products/7926265P" H 1890 1210 50  0001 L CNN
-F 4 "BLM18_N1D Series EMI Suppression Filter 330+/-25% at 100MHz 1.7A @85" H 1890 1110 50  0001 L CNN "Description"
-F 5 "0.95" H 1890 1010 50  0001 L CNN "Height"
-F 6 "7926265P" H 1890 910 50  0001 L CNN "RS Part Number"
-F 7 "http://uk.rs-online.com/web/p/products/7926265P" H 1890 810 50  0001 L CNN "RS Price/Stock"
-F 8 "Murata Electronics" H 1890 710 50  0001 L CNN "Manufacturer_Name"
-F 9 "BLM18KG331SN1D" H 1890 610 50  0001 L CNN "Manufacturer_Part_Number"
-	1    1240 1210
-	0    1    1    0   
-$EndComp
 Text Label 9680 900  1    50   ~ 0
 VDDIO2
 $Comp
@@ -592,7 +542,7 @@ F 3 "" H 4290 4860 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TFG20:C10u C34
+L TFG20-rescue:C10u-TFG20-TFG20-rescue C34
 U 1 1 5F329089
 P 4290 5040
 F 0 "C34" H 4405 5086 50  0000 L CNN
@@ -603,7 +553,7 @@ F 3 "https://es.rs-online.com/web/p/mlccs-condensadores-ceramicos-multicapa/7882
 	1    0    0    -1  
 $EndComp
 $Comp
-L TFG20:C100n C36
+L TFG20-rescue:C100n-TFG20-TFG20-rescue C36
 U 1 1 5F329E41
 P 4730 5040
 F 0 "C36" H 4845 5086 50  0000 L CNN
@@ -634,14 +584,12 @@ Text GLabel 10470 2500 2    50   BiDi Italic 0
 SWDIO
 Text GLabel 10470 2600 2    50   Input Italic 0
 SWCLK
-Text GLabel 980  3030 0    50   Input ~ 0
-LED7
 Text GLabel 980  3130 0    50   Input ~ 0
-LED6
+LED_4
 Text GLabel 980  3230 0    50   Input ~ 0
-LED5
+LED_7
 Text GLabel 980  3330 0    50   Input ~ 0
-LED4
+LED_6
 $Comp
 L power:GND #PWR082
 U 1 1 5F3DBFAE
@@ -672,10 +620,10 @@ Wire Wire Line
 Text Notes 1150 4240 0    129  ~ 0
 USER LEDS\n
 $Comp
-L TFG20:LED_AZUL LED7
+L TFG20-rescue:LED_AZUL-TFG20-TFG20-rescue LED_7
 U 1 1 5F3DBFBE
 P 2370 3650
-F 0 "LED7" H 3310 3710 50  0000 L BNN
+F 0 "LED_7" H 3310 3710 50  0000 L BNN
 F 1 "LED_AZUL" H 3200 3630 50  0000 L BNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 2870 3800 50  0001 L BNN
 F 3 "https://es.rs-online.com/web/p/leds/6973610/" H 2870 3700 50  0001 L BNN
@@ -684,10 +632,10 @@ F 4 "azul" H 2870 3600 50  0001 L BNN "Description"
 	-1   0    0    1   
 $EndComp
 $Comp
-L TFG20:LED_AMARILLO LED8
+L TFG20-rescue:LED_AMARILLO-TFG20-TFG20-rescue LED_8
 U 1 1 5F3DBFC5
 P 2380 2720
-F 0 "LED8" H 3400 2770 50  0000 L BNN
+F 0 "LED_8" H 3400 2770 50  0000 L BNN
 F 1 "LED_AMARILLO" H 3200 2690 50  0000 L BNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 2880 2870 50  0001 L BNN
 F 3 "https://es.rs-online.com/web/p/leds/6546079/" H 2880 2770 50  0001 L BNN
@@ -703,7 +651,7 @@ Connection ~ 2580 3650
 Wire Wire Line
 	2580 3650 2580 3830
 $Comp
-L TFG20:R470 R50
+L TFG20-rescue:R470-TFG20-TFG20-rescue R50
 U 1 1 5F3DBFD3
 P 1430 3030
 F 0 "R50" V 1510 3030 50  0000 C CNN
@@ -714,7 +662,7 @@ F 3 "https://es.rs-online.com/web/p/resistencias-fijas-para-montaje-en-superfici
 	0    1    1    0   
 $EndComp
 $Comp
-L TFG20:R470 R51
+L TFG20-rescue:R470-TFG20-TFG20-rescue R51
 U 1 1 5F3DBFD9
 P 1430 3130
 F 0 "R51" V 1510 3130 50  0000 C CNN
@@ -725,7 +673,7 @@ F 3 "https://es.rs-online.com/web/p/resistencias-fijas-para-montaje-en-superfici
 	0    1    1    0   
 $EndComp
 $Comp
-L TFG20:R470 R52
+L TFG20-rescue:R470-TFG20-TFG20-rescue R52
 U 1 1 5F3DBFDF
 P 1430 3230
 F 0 "R52" V 1510 3230 50  0000 C CNN
@@ -736,7 +684,7 @@ F 3 "https://es.rs-online.com/web/p/resistencias-fijas-para-montaje-en-superfici
 	0    1    1    0   
 $EndComp
 $Comp
-L TFG20:R470 R53
+L TFG20-rescue:R470-TFG20-TFG20-rescue R53
 U 1 1 5F3DBFE5
 P 1430 3330
 F 0 "R53" V 1510 3330 50  0000 C CNN
@@ -747,10 +695,10 @@ F 3 "https://es.rs-online.com/web/p/resistencias-fijas-para-montaje-en-superfici
 	0    1    1    0   
 $EndComp
 $Comp
-L TFG20:LED_VERDE LED6
+L TFG20-rescue:LED_VERDE-TFG20-TFG20-rescue LED_6
 U 1 1 5F3DBFEC
 P 2370 3340
-F 0 "LED6" H 3390 3360 50  0000 L BNN
+F 0 "LED_6" H 3390 3360 50  0000 L BNN
 F 1 "LED_VERDE" H 3250 3280 50  0000 L BNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 2870 3490 50  0001 L BNN
 F 3 "https://es.rs-online.com/web/p/leds/6973715/" H 2870 3390 50  0001 L BNN
@@ -759,10 +707,10 @@ F 4 "VERDE" H 2870 3290 50  0001 L BNN "Description"
 	-1   0    0    1   
 $EndComp
 $Comp
-L TFG20:LED_ROJO LED5
+L TFG20-rescue:LED_ROJO-TFG20-TFG20-rescue LED_5
 U 1 1 5F3DBFF4
 P 2370 3040
-F 0 "LED5" H 3380 3050 50  0000 L BNN
+F 0 "LED_5" H 3380 3050 50  0000 L BNN
 F 1 "LED_ROJO" H 3260 2970 50  0000 L BNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 2870 3190 50  0001 L BNN
 F 3 "https://es.rs-online.com/web/p/leds/7166570/" H 2870 3090 50  0001 L BNN
@@ -773,12 +721,10 @@ Wire Wire Line
 	1780 2720 1630 2720
 Wire Wire Line
 	1630 2720 1630 3030
-Text GLabel 8080 2700 0    50   Output ~ 0
-BOOT0
 Wire Wire Line
 	10480 2200 10180 2200
 $Comp
-L TFG20:10129381-908002BLF J7
+L TFG20-rescue:10129381-908002BLF-TFG20-TFG20-rescue J7
 U 1 1 5F3F82DD
 P 900 5100
 F 0 "J7" H 1300 5365 50  0000 C CNN
@@ -795,7 +741,7 @@ F 9 "10129381-908002BLF" H 1550 4500 50  0001 L CNN "Manufacturer_Part_Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L TFG20:10129381-908002BLF J6
+L TFG20-rescue:10129381-908002BLF-TFG20-TFG20-rescue J6
 U 1 1 5F4B588B
 P 890 5800
 F 0 "J6" H 1270 5340 50  0000 C CNN
@@ -812,7 +758,7 @@ F 9 "10129381-908002BLF" H 1540 5200 50  0001 L CNN "Manufacturer_Part_Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L TFG20:10129381-908002BLF J9
+L TFG20-rescue:10129381-908002BLF-TFG20-TFG20-rescue J9
 U 1 1 5F4B71BE
 P 2390 5800
 F 0 "J9" H 2780 5350 50  0000 C CNN
@@ -829,10 +775,10 @@ F 9 "10129381-908002BLF" H 3040 5200 50  0001 L CNN "Manufacturer_Part_Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L TFG20:Micro_SD_Card J10
+L TFG20-rescue:Micro_SD_Card-TFG20-TFG20-rescue J11
 U 1 1 5F12330C
 P 5730 6240
-F 0 "J10" V 5634 6820 50  0000 L CNN
+F 0 "J11" V 5634 6820 50  0000 L CNN
 F 1 "Micro_SD_Card" V 5725 6820 50  0000 L CNN
 F 2 "Connector_Card:microSD_HC_Molex_104031-0811" H 6880 6540 50  0001 C CNN
 F 3 "http://katalog.we-online.de/em/datasheet/693072010801.pdf" H 5730 6240 50  0001 C CNN
@@ -896,17 +842,6 @@ Text Label 5930 4760 1    50   ~ 0
 SD_CS
 Text Notes 4670 7570 0    157  ~ 31
 SD CARD
-$Comp
-L TFG20:STM32F091VCTx U1
-U 1 1 5F38E9E6
-P 9480 3600
-F 0 "U1" H 9430 711 50  0000 C CNN
-F 1 "STM32F091VCTx" H 9430 620 50  0000 C CNN
-F 2 "Package_QFP:LQFP-100_14x14mm_P0.5mm" H 8880 1000 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00115237.pdf" H 9480 3600 50  0001 C CNN
-	1    9480 3600
-	1    0    0    -1  
-$EndComp
 NoConn ~ 8680 2300
 NoConn ~ 8680 2200
 NoConn ~ 8680 3500
@@ -987,7 +922,7 @@ U_SW3
 Text GLabel 10180 1400 2    50   Output ~ 0
 U_SW4
 $Comp
-L TFG20:FSM2JLH USW3
+L TFG20-rescue:FSM2JLH-TFG20-TFG20-rescue USW3
 U 1 1 5F2A1A59
 P 6065 2960
 F 0 "USW3" H 6665 2595 50  0000 C CNN
@@ -1018,7 +953,7 @@ Wire Wire Line
 	6065 2960 6070 2960
 Connection ~ 6065 2960
 $Comp
-L TFG20:FSM2JLH USW4
+L TFG20-rescue:FSM2JLH-TFG20-TFG20-rescue USW4
 U 1 1 5F2E113B
 P 6065 3310
 F 0 "USW4" H 6665 2945 50  0000 C CNN
@@ -1052,7 +987,7 @@ Wire Wire Line
 Connection ~ 4780 3310
 Connection ~ 4700 3310
 $Comp
-L TFG20:FSM2JLH uC_R1
+L TFG20-rescue:FSM2JLH-TFG20-TFG20-rescue uC_R1
 U 1 1 5F301CEF
 P 6180 1150
 F 0 "uC_R1" H 6780 1415 50  0000 C CNN
@@ -1074,13 +1009,11 @@ Wire Wire Line
 	6180 1150 6180 1250
 Connection ~ 6180 1250
 Text GLabel 8680 2500 0    50   Input ~ 0
-LED7
+LED_5
 Text GLabel 8680 2600 0    50   Input ~ 0
-LED6
+LED_4
 Text GLabel 10180 6000 2    50   Input ~ 0
-LED5
-Text GLabel 10180 6100 2    50   Input ~ 0
-LED4
+LED_7
 Text GLabel 8680 5400 0    50   Input ~ 0
 M_A0
 Text GLabel 10180 4400 2    50   Input ~ 0
@@ -1154,7 +1087,7 @@ M_D10
 Text GLabel 10180 2700 2    50   BiDi ~ 0
 M_D11
 $Comp
-L TFG20:C100n C37
+L TFG20-rescue:C100n-TFG20-TFG20-rescue C37
 U 1 1 5F22FB87
 P 4775 1135
 F 0 "C37" H 4890 1181 50  0000 L CNN
@@ -1277,7 +1210,7 @@ uC_D19
 Text GLabel 10180 5800 2    50   BiDi ~ 0
 uC_D17
 $Comp
-L TFG20:1761681-3 J8
+L TFG20-rescue:1761681-3-TFG20-TFG20-rescue J8
 U 1 1 5F3313BE
 P 1580 7005
 F 0 "J8" H 2030 7270 50  0000 C CNN
@@ -1295,11 +1228,8 @@ F 9 "1761681-3" H 2330 6405 50  0001 L CNN "Manufacturer_Part_Number"
 $EndComp
 Wire Wire Line
 	8245 2700 8680 2700
-Wire Wire Line
-	8245 2700 8080 2700
-Connection ~ 8245 2700
 $Comp
-L TFG20:R10k R57
+L TFG20-rescue:R10k-TFG20-TFG20-rescue R57
 U 1 1 5F5C69B6
 P 8245 2850
 F 0 "R57" H 8315 2896 50  0000 L CNN
@@ -1353,7 +1283,68 @@ Connection ~ 2580 3340
 Wire Wire Line
 	2580 3340 2580 3650
 $Comp
-L TFG20:ECS-320-12-33B-7KM-TR Y1
+L Connector_Generic:Conn_01x01 J10
+U 1 1 5F3D36B2
+P 2700 5095
+F 0 "J10" H 2780 5137 50  0000 L CNN
+F 1 "Conn_01x01" H 2780 5046 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2700 5095 50  0001 C CNN
+F 3 "~" H 2700 5095 50  0001 C CNN
+	1    2700 5095
+	1    0    0    -1  
+$EndComp
+Text Label 2500 5095 2    50   ~ 0
+NRST
+Text GLabel 980  3030 0    50   Input ~ 0
+LED_5
+Text GLabel 10180 6100 2    50   Input ~ 0
+LED_6
+Wire Wire Line
+	8150 2100 8680 2100
+$Comp
+L TFG20-rescue:C20p-TFG20-TFG20-rescue C39
+U 1 1 5EBEE83F
+P 7940 2150
+F 0 "C39" V 7688 2150 50  0000 C CNN
+F 1 "C20p" V 7779 2150 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7978 2000 50  0001 C CNN
+F 3 "https://es.rs-online.com/web/p/mlccs-condensadores-ceramicos-multicapa/7880355/" H 7940 2150 50  0001 C CNN
+	1    7940 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 2560 8150 2100
+Wire Wire Line
+	7480 3440 7480 2560
+Wire Wire Line
+	7240 3440 7480 3440
+Connection ~ 7940 2000
+Wire Wire Line
+	7140 2000 7940 2000
+Wire Wire Line
+	7140 2140 7140 2000
+Wire Wire Line
+	7630 2560 8150 2560
+Wire Wire Line
+	7480 2560 7630 2560
+Connection ~ 7630 2560
+$Comp
+L TFG20-rescue:C20p-TFG20-TFG20-rescue C38
+U 1 1 5EBEDEA5
+P 7630 2710
+F 0 "C38" H 7460 2970 50  0000 C CNN
+F 1 "C20p" H 7480 2880 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7668 2560 50  0001 C CNN
+F 3 "https://es.rs-online.com/web/p/mlccs-condensadores-ceramicos-multicapa/7880355/" H 7630 2710 50  0001 C CNN
+	1    7630 2710
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7365 2140 7240 2140
+Wire Wire Line
+	7365 2140 7365 2150
+$Comp
+L TFG20-rescue:ECS-320-12-33B-7KM-TR-TFG20-TFG20-rescue Y1
 U 1 1 5F3270BD
 P 7240 2140
 F 0 "Y1" V 7844 2268 50  0000 L CNN
@@ -1369,16 +1360,44 @@ F 9 "ECS-320-12-33B-7KM-TR" H 8390 1540 50  0001 L CNN "Manufacturer_Part_Number
 	1    7240 2140
 	0    1    1    0   
 $EndComp
-Connection ~ 7940 2000
+Connection ~ 8245 2700
 Wire Wire Line
-	7140 2140 7140 2000
-Wire Wire Line
-	7140 2000 7940 2000
+	8245 2700 8080 2700
+Text GLabel 8080 2700 0    50   Output ~ 0
+BOOT0
 $Comp
-L power:GND #PWR0101
-U 1 1 5F33975D
+L TFG20-rescue:STM32F091VCTx-TFG20-TFG20-rescue U1
+U 1 1 5F38E9E6
+P 9480 3600
+F 0 "U1" H 9430 711 50  0000 C CNN
+F 1 "STM32F091VCTx" H 9430 620 50  0000 C CNN
+F 2 "Package_QFP:LQFP-100_14x14mm_P0.5mm" H 8880 1000 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00115237.pdf" H 9480 3600 50  0001 C CNN
+	1    9480 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L TFG20-rescue:BLM18KG331SN1D-TFG20-TFG20-rescue FB3
+U 1 1 5EC13616
+P 1240 1210
+F 0 "FB3" H 1250 1483 50  0000 C CNN
+F 1 "BLM18KG331SN1D" H 1250 1392 50  0000 C CNN
+F 2 "BEADC1608X95N" H 1890 1310 50  0001 L CNN
+F 3 "http://uk.rs-online.com/web/p/products/7926265P" H 1890 1210 50  0001 L CNN
+F 4 "BLM18_N1D Series EMI Suppression Filter 330+/-25% at 100MHz 1.7A @85" H 1890 1110 50  0001 L CNN "Description"
+F 5 "0.95" H 1890 1010 50  0001 L CNN "Height"
+F 6 "7926265P" H 1890 910 50  0001 L CNN "RS Part Number"
+F 7 "http://uk.rs-online.com/web/p/products/7926265P" H 1890 810 50  0001 L CNN "RS Price/Stock"
+F 8 "Murata Electronics" H 1890 710 50  0001 L CNN "Manufacturer_Name"
+F 9 "BLM18KG331SN1D" H 1890 610 50  0001 L CNN "Manufacturer_Part_Number"
+	1    1240 1210
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F47FB73
 P 7940 2300
-F 0 "#PWR0101" H 7940 2050 50  0001 C CNN
+F 0 "#PWR?" H 7940 2050 50  0001 C CNN
 F 1 "GND" H 7945 2127 50  0000 C CNN
 F 2 "" H 7940 2300 50  0001 C CNN
 F 3 "" H 7940 2300 50  0001 C CNN
@@ -1386,38 +1405,36 @@ F 3 "" H 7940 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR099
-U 1 1 5F339CE2
-P 7240 2140
-F 0 "#PWR099" H 7240 1890 50  0001 C CNN
-F 1 "GND" H 7245 1967 50  0000 C CNN
-F 2 "" H 7240 2140 50  0001 C CNN
-F 3 "" H 7240 2140 50  0001 C CNN
-	1    7240 2140
-	0    -1   -1   0   
+L power:GND #PWR?
+U 1 1 5F48082E
+P 7365 2150
+F 0 "#PWR?" H 7365 1900 50  0001 C CNN
+F 1 "GND" H 7370 1977 50  0000 C CNN
+F 2 "" H 7365 2150 50  0001 C CNN
+F 3 "" H 7365 2150 50  0001 C CNN
+	1    7365 2150
+	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR098
-U 1 1 5F33A48C
+L power:GND #PWR?
+U 1 1 5F480F1F
 P 7140 3440
-F 0 "#PWR098" H 7140 3190 50  0001 C CNN
+F 0 "#PWR?" H 7140 3190 50  0001 C CNN
 F 1 "GND" H 7145 3267 50  0000 C CNN
 F 2 "" H 7140 3440 50  0001 C CNN
 F 3 "" H 7140 3440 50  0001 C CNN
 	1    7140 3440
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7240 3440 7480 3440
-Wire Wire Line
-	7480 3440 7480 2560
-Wire Wire Line
-	7480 2560 7630 2560
-Wire Wire Line
-	8150 2560 8150 2100
-Wire Wire Line
-	8150 2100 8680 2100
-Connection ~ 7630 2560
-Wire Wire Line
-	7630 2560 8150 2560
+$Comp
+L power:GND #PWR?
+U 1 1 5F481CDB
+P 7630 2860
+F 0 "#PWR?" H 7630 2610 50  0001 C CNN
+F 1 "GND" H 7635 2687 50  0000 C CNN
+F 2 "" H 7630 2860 50  0001 C CNN
+F 3 "" H 7630 2860 50  0001 C CNN
+	1    7630 2860
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
