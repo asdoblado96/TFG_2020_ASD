@@ -2,11 +2,9 @@
 
 ![](https://github.com/asdoblado96/TFG_2020_ASD/blob/master/Docs/3dfinal.jpg)
 
-This board was developed as a final bachelor degree project.
+This board was developed as a final bachelor project.
 
-It arrived as an opportunity to build a board that combines the advantages of both, microcontrollers and FPGAs, devices in one product.
-
-As an open source project, you will find all necessary files and information in this repository.
+It came up as an opportunity to build an open source board that combines the advantages of both, microcontrollers and FPGAs, devices in one product. As an open source project, you will find all necessary files and information in this repository.
 
 Please, take into account that the board was developped as an student. The purpose of this project was merely to learn about electronics and electronic product development. Please, don't hesitate to contact me in case of doubt, suggestion or if you find any error. 
 
