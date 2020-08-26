@@ -35,6 +35,7 @@ Thank you.
     * SWD connector for using ST-Link V2
     * 24 I/O pins (20 digital and 4 analog pins)
     * 1 SPI, 1 I2C and 6 UART compatible pins
+    * Programmable by USB (thanks to FTDI chip) or by St-Link
 * General:
     * 4MB shared SRAM between microcontroller and FPGA (to be used as storage or as a communication buffer between devices)
     * USB C power supply (up to 5A)
