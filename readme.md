@@ -4,11 +4,11 @@
 
 This board was developed as a final bachelor degree project.
 
-It arrived as an opportunity to build a board that mixes the advantages of both, microcontrollers and FPGAs, devices in one product.
+It arrived as an opportunity to build a board that combines the advantages of both, microcontrollers and FPGAs, devices in one product.
 
-As an open source project, you will find all necessary files and information in this GitHub.
+As an open source project, you will find all necessary files and information in this repository.
 
-Please, take into account that the board was developped as an student. My purpose with this project was merely to learn about electronics and electronic product development, so let me know any error, doubt or possible improvent. 
+Please, take into account that the board was developped as an student. The purpose of this project was merely to learn about electronics and electronic product development. Please, don't hesitate to contact me in case of doubt, suggestion or if you find any error. 
 
 Thank you.
 
@@ -21,7 +21,7 @@ Thank you.
     * 12 MHZ MEMS oscillator 
     * 4 general purpose LEDs (user LEDs)
     * 2 general purpose pushbuttons
-    * Reset pushbutton and accesible external pin
+    * Reset pushbutton and accessible external pin
     * VGA port
     * 30 I/O pins (26 digital and 4 analog pins)
     * 4-Channels, 12 bits A/D converter
@@ -32,7 +32,7 @@ Thank you.
     * Internal 8MHZ clock and external 32MHZ crystal oscillator clock
     * 4 general purpose LEDs (user LEDs)
     * 2 general purpose pushbuttons
-    * Reset pushbutton and accesible external pin
+    * Reset pushbutton and accessible external pin
     * MicroSD card reader
     * SWD connector for using ST-Link V2
     * 24 I/O pins (20 digital and 4 analog pins)
