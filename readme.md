@@ -3,6 +3,7 @@
 ![](https://github.com/asdoblado96/TFG_2020_ASD/blob/master/Documentaci%C3%B3n/3dfinal.jpg)
 
 This board was developed as a final bachelor degree project.
+
 It arrived as an opportunity to build a board that mixes the advantages of both, microcontrollers and FPGAs, devices.
 As an open source project, you will find all necessary files and information in this GitHub.
 
