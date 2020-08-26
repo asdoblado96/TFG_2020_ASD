@@ -4,7 +4,8 @@
 
 This board was developed as a final bachelor degree project.
 
-It arrived as an opportunity to build a board that mixes the advantages of both, microcontrollers and FPGAs, devices.
+It arrived as an opportunity to build a board that mixes the advantages of both, microcontrollers and FPGAs, devices in one product.
+
 As an open source project, you will find all necessary files and information in this GitHub.
 
 Please, take into account that the board was developped as an student. My purpose with this project was merely to learn about electronics and electronic product development, so let me know any error, doubt or possible improvent. 
@@ -37,7 +38,7 @@ Thank you.
     * 24 I/O pins (20 digital and 4 analog pins)
     * 1 SPI, 1 I2C and 6 UART compatible pins
 * General:
-    * 4MB shared SRAM between microcontroller and FPGA
+    * 4MB shared SRAM between microcontroller and FPGA (to be used as storage or as a communication buffer between devices)
     * USB C power supply (up to 5A)
     * 24 accessible power pins (5V and 3.3V) and 24 GND pins
 
