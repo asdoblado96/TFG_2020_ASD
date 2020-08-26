@@ -1,12 +1,18 @@
 # Open source training FPGA board
 
-
 ![](https://github.com/asdoblado96/TFG_2020_ASD/blob/master/Documentaci%C3%B3n/3dfinal.jpg)
+
+This board was developed as a final bachelor degree project.
+It arrived as an opportunity to build a board that mixes the advantages of both, microcontrollers and FPGAs, devices.
+As an open source project, you will find all necessary files and information in this GitHub.
+
+Please, take into account that the board was developped as an student. My purpose with this project was merely to learn about electronics, so let me know any problems, doubts or possible improvents. 
+
+Thank you.
 
 ## Features
 
 * Open hardware
-
 * FPGA:
     * iCE40HX4K (Lattice) FPGA development board (8K using opensource toolchain)
     * 32Mb flash memory for up to 30 bitstreams or FPGA user data
@@ -18,7 +24,6 @@
     * 30 I/O pins (26 digital and 4 analog pins)
     * 4-Channels, 12 bits A/D converter
     * Compatible with the opensource [Icestudio] (https://github.com/FPGAwars/icestudio)
-
 * Microcontroller:
     * STM32F091VC microcontroller
     * 256Kbyte flash memory and 32Kbyte RAM memory
@@ -26,12 +31,11 @@
     * 4 general purpose LEDs (user LEDs)
     * 2 general purpose pushbuttons
     * Reset pushbutton and accesible external pin
-    * microSD card reader
-    * SWD connector for ST-Link V2
+    * MicroSD card reader
+    * SWD connector for using ST-Link V2
     * 24 I/O pins (20 digital and 4 analog pins)
-    * 1 SPI, 1 I2C and 6 USART compatible pins
-
-*General:
+    * 1 SPI, 1 I2C and 6 UART compatible pins
+* General:
     * 4MB shared SRAM between microcontroller and FPGA
     * USB C power supply (up to 5A)
     * 24 accessible power pins (5V and 3.3V) and 24 GND pins
