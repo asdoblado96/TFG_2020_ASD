@@ -39,7 +39,7 @@ Thank you.
     * Programmable by USB or by St-Link.
 * General:
     * FTDI chip allows programming both devices (previously selected by an external jumper). 
-    * 4MB shared SRAM between microcontroller and FPGA (to be used as storage or as a communication. buffer between devices)
+    * 4MB shared SRAM between microcontroller and FPGA (to be used as storage or as a communication buffer between devices).
     * USB C power supply (up to 5A).
     * 24 accessible power pins (5V and 3.3V) and 24 GND pins.
 
